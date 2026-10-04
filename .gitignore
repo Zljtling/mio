@@ -28,10 +28,10 @@ ipch/
 *.exe
 *.res
 
-# Reproducible release output (source assets remain under MESA/)
-MESA/dist/
+# Reproducible release output (source assets remain in the project)
+Projects/Milk Egg Survival Adventure/MESA/dist/
 # Temporary page fetched during the abandoned video download
-MESA/art_resources/video_source/
+Projects/Milk Egg Survival Adventure/MESA/art_resources/video_source/
 
 # Local backups and temporary files
 *.bak

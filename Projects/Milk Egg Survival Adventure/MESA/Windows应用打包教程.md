@@ -14,11 +14,11 @@
 
 | 文件 | 用途 |
 |---|---|
-| [game.ico](<D:/Projects/Milk Egg Survival Adventure/MESA/packaging/game.ico>) | Windows 应用图标，包含 16、24、32、48、64、128、256 七个尺寸 |
-| [game_icon.png](<D:/Projects/Milk Egg Survival Adventure/MESA/packaging/game_icon.png>) | 1024×1024 图标预览，可以用于介绍游戏 |
-| [app_icon.rc](<D:/Projects/Milk Egg Survival Adventure/MESA/packaging/app_icon.rc>) | 将图标和 1.0.0 版本信息嵌入 EXE 的资源脚本 |
-| [MESA_installer.iss](<D:/Projects/Milk Egg Survival Adventure/MESA/packaging/MESA_installer.iss>) | 可选的 Inno Setup 安装包模板 |
-| [图标生成说明](<D:/Projects/Milk Egg Survival Adventure/MESA/packaging/图标生成说明.md>) | 原图位置、工具与完整生成提示词 |
+| [game.ico](<packaging/game.ico>) | Windows 应用图标，包含 16、24、32、48、64、128、256 七个尺寸 |
+| [game_icon.png](<packaging/game_icon.png>) | 1024×1024 图标预览，可以用于介绍游戏 |
+| [app_icon.rc](<packaging/app_icon.rc>) | 将图标和 1.0.0 版本信息嵌入 EXE 的资源脚本 |
+| [MESA_installer.iss](<packaging/MESA_installer.iss>) | 可选的 Inno Setup 安装包模板 |
+| [图标生成说明](<packaging/图标生成说明.md>) | 原图位置、工具与完整生成提示词 |
 
 图标是奶黄色蛋形角色、绿色眼睛、白色蛋壳和蓝白牛奶盒，采用原创角色特写构图。
 
@@ -43,7 +43,7 @@
 
 输出目录改为：
 
-`D:\Projects\Milk Egg Survival Adventure\MESA\dist\奶蛋求生\`
+`Projects\Milk Egg Survival Adventure\MESA\dist\奶蛋求生\`
 
 这是后面直接交付给玩家的目录。中间目录保持原值，不要把 obj、中间文件都放进发布目录。
 
@@ -52,7 +52,7 @@
 ## 3. 把图标资源添加到项目
 
 1. 在解决方案资源管理器中右键 **MESA 项目** → 添加 → 现有项。
-2. 选择 `D:\Projects\Milk Egg Survival Adventure\MESA\packaging\app_icon.rc`，点击添加。
+2. 选择 `Projects\Milk Egg Survival Adventure\MESA\packaging\app_icon.rc`，点击添加。
 3. 确认该文件出现在项目里。如果需要检查它的文件属性，「项类型」应该是「资源编译器」，「从生成中排除」为「否」。
 4. game.ico 放在原来的 packaging 目录即可，不需要复制到 img，也不需要单独添加到项目。
 
@@ -162,7 +162,7 @@ ApplyApplicationIcon 使用 app_icon.rc 内的图标，设置标题栏与任务�
 
 在资源管理器里创建：
 
-`D:\Projects\Milk Egg Survival Adventure\MESA\dist\奶蛋求生\`
+`Projects\Milk Egg Survival Adventure\MESA\dist\奶蛋求生\`
 
 按下面的表复制资源，保持文件名和目录层级：
 
@@ -240,7 +240,7 @@ myimg、原始生成图、预览图、素材备份、main.cpp、Visual Studio �
 
 我已经准备模板：
 
-`D:\Projects\Milk Egg Survival Adventure\MESA\packaging\MESA_installer.iss`
+`Projects\Milk Egg Survival Adventure\MESA\packaging\MESA_installer.iss`
 
 使用步骤：
 
@@ -283,4 +283,3 @@ myimg、原始生成图、预览图、素材备份、main.cpp、Visual Studio �
 - 没有创建正式发布 ZIP 或安装 EXE；发布目录需要按教程由你整理并测试，安装模板没有实际编译。
 - main.cpp 与 MESA.vcxproj 均保持原样。临时检查文件统一在系统 TEMP 的 mesa-packaging-check，不参与项目编译。
 - 所有新增图标与打包模板统一在 MESA/packaging，原始生成图在 MESA/art_resources/source/app_icon_source.png。工具记录见 MESA/说明.md 和 packaging/图标生成说明.md，未安装新工具或插件。
-
