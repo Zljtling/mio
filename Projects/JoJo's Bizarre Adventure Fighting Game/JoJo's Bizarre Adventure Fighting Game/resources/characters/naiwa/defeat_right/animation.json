@@ -1,0 +1,52 @@
+{
+  "character": "naiwa",
+  "action": "defeat",
+  "direction": "right",
+  "stage": "final",
+  "frame_count": 8,
+  "frame_size": [
+    192,
+    128
+  ],
+  "sheet_size": [
+    768,
+    256
+  ],
+  "sheet_grid": [
+    4,
+    2
+  ],
+  "order": "left to right, top to bottom",
+  "durations_ms": [
+    100,
+    100,
+    110,
+    160,
+    150,
+    150,
+    150,
+    280
+  ],
+  "duration_ms": 1200,
+  "loop": false,
+  "hold_last_frame": true,
+  "final_state": "prone_with_side_face",
+  "ground_y": 126,
+  "frame_files": [
+    "frames/naiwa_defeat_1.png",
+    "frames/naiwa_defeat_2.png",
+    "frames/naiwa_defeat_3.png",
+    "frames/naiwa_defeat_4.png",
+    "frames/naiwa_defeat_5.png",
+    "frames/naiwa_defeat_6.png",
+    "frames/naiwa_defeat_7.png",
+    "frames/naiwa_defeat_8.png"
+  ],
+  "sheet_file": "naiwa_defeat_right_sheet.png",
+  "alpha": "PNG RGBA transparency preserved",
+  "creative_mode": "built-in image_gen",
+  "approved": true,
+  "review_status": "approved",
+  "approved_by": "user",
+  "approved_on": "2026-10-10"
+}

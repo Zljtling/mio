@@ -1,0 +1,23 @@
+{
+  "character": "kakyoin",
+  "asset": "quill_projectile",
+  "direction": "right",
+  "approved": true,
+  "image_file": "kakyoin_quill_projectile_right.png",
+  "size": [
+    32,
+    16
+  ],
+  "visible_bounds": [
+    4,
+    5,
+    28,
+    11
+  ],
+  "anchor": [
+    16,
+    8
+  ],
+  "alpha": "RGBA transparent",
+  "creative_mode": "built-in imagegen"
+}

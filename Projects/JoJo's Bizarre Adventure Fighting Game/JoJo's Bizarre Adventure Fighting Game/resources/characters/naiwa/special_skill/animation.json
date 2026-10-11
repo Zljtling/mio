@@ -1,0 +1,32 @@
+{
+  "character": "naiwa",
+  "action": "special_skill",
+  "stage": "approved",
+  "asset_only": true,
+  "phase_order": [
+    "cast_right",
+    "doubao_appear_open",
+    "doubao_guard_loop",
+    "doubao_disappear"
+  ],
+  "phase_manifests": {
+    "cast_right": "cast_right/animation.json",
+    "doubao_appear_open": "doubao_appear_open/animation.json",
+    "doubao_guard_loop": "doubao_guard_loop/animation.json",
+    "doubao_disappear": "doubao_disappear/animation.json"
+  },
+  "reactive_effect_manifest": "guard_hit_effect/animation.json",
+  "energy_cost": 30,
+  "energy_return": 10,
+  "damage_reduction_percent": 70,
+  "summon_trigger_frame": 4,
+  "guard_duration": "until skill ends; no fixed time specified",
+  "doubao_render_layer": "behind Naiwa",
+  "doubao_offset_from_owner_top_left": [
+    -88,
+    -65
+  ],
+  "guard_effect_render_layer": "in front of Naiwa",
+  "note": "visual assets and suggested timing only; gameplay logic not changed",
+  "doubao_position_note": "For right-facing Naiwa, Doubao stands immediately to his left and behind his render layer, keeping her face and dress visible. Mirror placement for left-facing use."
+}

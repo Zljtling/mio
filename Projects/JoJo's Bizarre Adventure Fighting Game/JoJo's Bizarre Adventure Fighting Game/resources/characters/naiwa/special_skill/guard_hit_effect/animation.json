@@ -1,0 +1,49 @@
+{
+  "character": "doubao",
+  "owner": "naiwa",
+  "action": "special_guard_damage_absorb",
+  "direction": "right",
+  "stage": "approved",
+  "durations_ms": [
+    45,
+    50,
+    60,
+    60,
+    60,
+    55,
+    50,
+    45
+  ],
+  "duration_ms": 425,
+  "loop": false,
+  "trigger": "when Naiwa takes damage during special guard",
+  "damage_reduction_visualized_percent": 70,
+  "relative_to_owner": "centered around owner, impact on facing-right edge",
+  "frame_count": 8,
+  "frame_size": [
+    192,
+    192
+  ],
+  "sheet_size": [
+    768,
+    384
+  ],
+  "sheet_grid": [
+    4,
+    2
+  ],
+  "order": "left to right, top to bottom",
+  "frame_files": [
+    "frames/doubao_guard_hit_1.png",
+    "frames/doubao_guard_hit_2.png",
+    "frames/doubao_guard_hit_3.png",
+    "frames/doubao_guard_hit_4.png",
+    "frames/doubao_guard_hit_5.png",
+    "frames/doubao_guard_hit_6.png",
+    "frames/doubao_guard_hit_7.png",
+    "frames/doubao_guard_hit_8.png"
+  ],
+  "sheet_file": "doubao_guard_hit_effect_sheet.png",
+  "alpha": "PNG RGBA transparency preserved",
+  "creative_mode": "built-in image_gen"
+}

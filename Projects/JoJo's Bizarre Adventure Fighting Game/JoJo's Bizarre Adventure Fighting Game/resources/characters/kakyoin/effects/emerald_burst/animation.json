@@ -1,0 +1,93 @@
+{
+  "animation": "hierophant_green_emerald_burst",
+  "character": "kakyoin",
+  "frame_count": 4,
+  "frame_size": [
+    48,
+    48
+  ],
+  "duration_ms": 200,
+  "loop": false,
+  "origin": [
+    24,
+    24
+  ],
+  "sheet": "hierophant_green_emerald_burst_sheet.png",
+  "sheet_grid": [
+    4,
+    1
+  ],
+  "frames": [
+    {
+      "index": 1,
+      "file": "frames/hierophant_green_emerald_burst_1.png",
+      "duration_ms": 40,
+      "size": [
+        48,
+        48
+      ],
+      "visible_size": [
+        17,
+        18
+      ],
+      "origin": [
+        24,
+        24
+      ]
+    },
+    {
+      "index": 2,
+      "file": "frames/hierophant_green_emerald_burst_2.png",
+      "duration_ms": 50,
+      "size": [
+        48,
+        48
+      ],
+      "visible_size": [
+        36,
+        35
+      ],
+      "origin": [
+        24,
+        24
+      ]
+    },
+    {
+      "index": 3,
+      "file": "frames/hierophant_green_emerald_burst_3.png",
+      "duration_ms": 60,
+      "size": [
+        48,
+        48
+      ],
+      "visible_size": [
+        40,
+        39
+      ],
+      "origin": [
+        24,
+        24
+      ]
+    },
+    {
+      "index": 4,
+      "file": "frames/hierophant_green_emerald_burst_4.png",
+      "duration_ms": 50,
+      "size": [
+        48,
+        48
+      ],
+      "visible_size": [
+        42,
+        42
+      ],
+      "origin": [
+        24,
+        24
+      ]
+    }
+  ],
+  "approved": true,
+  "stage": "final",
+  "approved_on": "2026-10-08"
+}

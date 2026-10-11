@@ -1,0 +1,45 @@
+{
+  "character": "naiwa",
+  "action": "normal_attack_phantom_disappear",
+  "stage": "approved",
+  "frame_count": 8,
+  "frame_size": [
+    160,
+    160
+  ],
+  "sheet_size": [
+    640,
+    320
+  ],
+  "sheet_grid": [
+    4,
+    2
+  ],
+  "order": "left to right, top to bottom",
+  "durations_ms": [
+    50,
+    50,
+    50,
+    50,
+    60,
+    60,
+    60,
+    80
+  ],
+  "duration_ms": 460,
+  "loop": false,
+  "ground_y": 149,
+  "frame_files": [
+    "frames/naiwa_phantom_disappear_1.png",
+    "frames/naiwa_phantom_disappear_2.png",
+    "frames/naiwa_phantom_disappear_3.png",
+    "frames/naiwa_phantom_disappear_4.png",
+    "frames/naiwa_phantom_disappear_5.png",
+    "frames/naiwa_phantom_disappear_6.png",
+    "frames/naiwa_phantom_disappear_7.png",
+    "frames/naiwa_phantom_disappear_8.png"
+  ],
+  "sheet_file": "naiwa_phantom_disappear_sheet.png",
+  "alpha": "PNG RGBA transparency preserved",
+  "derived_from": "phantom_summon frames in reverse, ending fully transparent"
+}

@@ -1,0 +1,41 @@
+{
+  "character": "kakyoin",
+  "action": "quill_hit",
+  "approved": true,
+  "stage": "final",
+  "frame_count": 4,
+  "frame_size": [
+    48,
+    48
+  ],
+  "sheet_size": [
+    192,
+    48
+  ],
+  "sheet_grid": [
+    4,
+    1
+  ],
+  "frame_files": [
+    "frames/kakyoin_quill_hit_1.png",
+    "frames/kakyoin_quill_hit_2.png",
+    "frames/kakyoin_quill_hit_3.png",
+    "frames/kakyoin_quill_hit_4.png"
+  ],
+  "sheet_file": "kakyoin_quill_hit_sheet.png",
+  "durations_ms": [
+    40,
+    40,
+    40,
+    40
+  ],
+  "duration_ms": 160,
+  "loop": false,
+  "hold_last_frame": false,
+  "anchor": [
+    24,
+    24
+  ],
+  "creative_mode": "built-in imagegen",
+  "approval": "user approved keyposes, projectile and four impact frames"
+}

@@ -1,0 +1,21 @@
+PASS city assets loaded at world size
+PASS trimmed ledges and continuous ground loaded
+PASS spawn rests on street
+PASS jump reaches first exterior ledge
+PASS jump reaches next exterior ledge
+PASS camera fits fighters at opposite world edges
+PASS movement stays within world bounds
+PASS transformed movement uses 0.15 px/ms
+PASS miss does not shake camera
+PASS guard reduces damage 70 percent and passive returns 2 energy
+PASS guard impact shakes camera
+PASS shake returns to followed camera position
+PASS Naiwa expanding wave hits and transforms enemy
+PASS Naiwa wave retains configured world radius
+PASS Naiwa ultimate actual hit shakes camera
+PASS Jotaro special hit shake
+PASS Jotaro ultimate attack hit shake
+PASS Kakyoin special hit shake
+PASS Kakyoin ultimate hit shake
+PASS emerald hit returns 2 energy
+CITY VERIFICATION COMPLETE

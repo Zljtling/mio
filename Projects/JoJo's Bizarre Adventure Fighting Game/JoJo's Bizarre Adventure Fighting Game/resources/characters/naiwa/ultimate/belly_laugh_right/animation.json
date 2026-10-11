@@ -1,0 +1,61 @@
+{
+  "character": "naiwa",
+  "action": "ultimate_belly_laugh",
+  "direction": "right",
+  "stage": "approved",
+  "durations_ms": [
+    90,
+    90,
+    90,
+    100,
+    110,
+    110,
+    90,
+    90
+  ],
+  "intro_frames": [
+    1,
+    2,
+    3
+  ],
+  "loop_frames": [
+    4,
+    5,
+    6
+  ],
+  "recovery_frames": [
+    7,
+    8
+  ],
+  "loop_until_skill_ends": true,
+  "wave_trigger_frame": 4,
+  "ground_y": 116,
+  "idle_endpoints_preserved_exactly": true,
+  "frame_count": 8,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sheet_size": [
+    512,
+    256
+  ],
+  "sheet_grid": [
+    4,
+    2
+  ],
+  "order": "left to right, top to bottom",
+  "frame_files": [
+    "frames/naiwa_belly_laugh_1.png",
+    "frames/naiwa_belly_laugh_2.png",
+    "frames/naiwa_belly_laugh_3.png",
+    "frames/naiwa_belly_laugh_4.png",
+    "frames/naiwa_belly_laugh_5.png",
+    "frames/naiwa_belly_laugh_6.png",
+    "frames/naiwa_belly_laugh_7.png",
+    "frames/naiwa_belly_laugh_8.png"
+  ],
+  "sheet_file": "naiwa_belly_laugh_right_sheet.png",
+  "alpha": "PNG RGBA transparency preserved",
+  "creative_mode": "built-in image_gen"
+}

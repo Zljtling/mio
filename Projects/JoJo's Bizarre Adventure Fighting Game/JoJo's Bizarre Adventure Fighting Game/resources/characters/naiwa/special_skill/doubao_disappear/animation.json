@@ -1,0 +1,48 @@
+{
+  "character": "doubao",
+  "owner": "naiwa",
+  "action": "special_guard_disappear",
+  "direction": "right",
+  "stage": "approved",
+  "durations_ms": [
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    90,
+    80
+  ],
+  "duration_ms": 650,
+  "loop": false,
+  "ground_y": 181,
+  "first_frame_matches_guard_loop_start": true,
+  "frame_count": 8,
+  "frame_size": [
+    192,
+    192
+  ],
+  "sheet_size": [
+    768,
+    384
+  ],
+  "sheet_grid": [
+    4,
+    2
+  ],
+  "order": "left to right, top to bottom",
+  "frame_files": [
+    "frames/doubao_disappear_1.png",
+    "frames/doubao_disappear_2.png",
+    "frames/doubao_disappear_3.png",
+    "frames/doubao_disappear_4.png",
+    "frames/doubao_disappear_5.png",
+    "frames/doubao_disappear_6.png",
+    "frames/doubao_disappear_7.png",
+    "frames/doubao_disappear_8.png"
+  ],
+  "sheet_file": "doubao_disappear_sheet.png",
+  "alpha": "PNG RGBA transparency preserved",
+  "creative_mode": "built-in image_gen"
+}

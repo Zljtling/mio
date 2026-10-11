@@ -1,0 +1,52 @@
+{
+  "character": "naiwa",
+  "action": "ultimate",
+  "stage": "approved",
+  "asset_only": true,
+  "reference_gifs": [
+    "../大招捧腹大笑素材01.gif",
+    "../大招捧腹大笑素材02.gif",
+    "../大招捧腹大笑素材03.gif"
+  ],
+  "phase_order": [
+    "belly_laugh_right",
+    "soundwave_expand",
+    "target_transform",
+    "target_revert"
+  ],
+  "phase_manifests": {
+    "belly_laugh_right": "belly_laugh_right/animation.json",
+    "soundwave_expand": "soundwave_expand/animation.json",
+    "target_transform": "target_transform/animation.json",
+    "target_revert": "target_revert/animation.json"
+  },
+  "soundwave_anchor": "owner_body_center",
+  "soundwave_offset_from_owner_top_left": [
+    -256,
+    -256
+  ],
+  "soundwave_damage_per_enemy_hit": 9,
+  "wave_repeats_while_laughing": true,
+  "energy_cost": 100,
+  "energy_return": 10,
+  "transformed_duration_ms": 7000,
+  "transformed_identity": "naiwa_plain_mascot",
+  "transformed_idle_manifest": "transformed_plain_idle_right/animation.json",
+  "transformed_run_manifest": "transformed_plain_run_right/animation.json",
+  "transformed_allowed_actions": [
+    "move"
+  ],
+  "transformed_disabled_actions": [
+    "block",
+    "normal_attack",
+    "special_skill",
+    "ultimate"
+  ],
+  "note": "visual assets and suggested timing only; gameplay logic not changed",
+  "soundwave_visual_radius_px_approx": 300,
+  "transformed_design": "unclothed smooth yellow nonhuman mascot, green eyes, no hat or costume",
+  "status_manifests": {
+    "idle": "transformed_plain_idle_right/animation.json",
+    "move": "transformed_plain_run_right/animation.json"
+  }
+}

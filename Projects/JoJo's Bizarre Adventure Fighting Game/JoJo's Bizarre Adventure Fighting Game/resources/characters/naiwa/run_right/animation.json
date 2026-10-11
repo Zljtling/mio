@@ -1,0 +1,110 @@
+{
+  "character": "naiwa",
+  "action": "run",
+  "direction": "right",
+  "approved": true,
+  "stage": "final",
+  "review_status": "approved",
+  "frame_count": 24,
+  "keyframe_slots": [
+    1,
+    4,
+    7,
+    10,
+    13,
+    16,
+    19,
+    22
+  ],
+  "keyframes_preserved_exactly": false,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sheet_size": [
+    768,
+    512
+  ],
+  "sheet_grid": [
+    6,
+    4
+  ],
+  "order": "left to right, top to bottom",
+  "frame_duration_ms": 30,
+  "duration_ms": 720,
+  "loop": true,
+  "ground_y": 116,
+  "frame_files": [
+    "frames/naiwa_run_1.png",
+    "frames/naiwa_run_2.png",
+    "frames/naiwa_run_3.png",
+    "frames/naiwa_run_4.png",
+    "frames/naiwa_run_5.png",
+    "frames/naiwa_run_6.png",
+    "frames/naiwa_run_7.png",
+    "frames/naiwa_run_8.png",
+    "frames/naiwa_run_9.png",
+    "frames/naiwa_run_10.png",
+    "frames/naiwa_run_11.png",
+    "frames/naiwa_run_12.png",
+    "frames/naiwa_run_13.png",
+    "frames/naiwa_run_14.png",
+    "frames/naiwa_run_15.png",
+    "frames/naiwa_run_16.png",
+    "frames/naiwa_run_17.png",
+    "frames/naiwa_run_18.png",
+    "frames/naiwa_run_19.png",
+    "frames/naiwa_run_20.png",
+    "frames/naiwa_run_21.png",
+    "frames/naiwa_run_22.png",
+    "frames/naiwa_run_23.png",
+    "frames/naiwa_run_24.png"
+  ],
+  "sheet_file": "naiwa_run_right_sheet.png",
+  "creative_mode": "built-in image_gen",
+  "leg_identity": {
+    "near_left": "bright warm ivory, foreground",
+    "far_right": "cool gray ivory, background"
+  },
+  "revised_keyframe_slots": [
+    10
+  ],
+  "revised_frames": [
+    10,
+    11,
+    18
+  ],
+  "revision": "crotch_upper_thigh_shading_10_11",
+  "latest_revised_frames": [
+    10,
+    11
+  ],
+  "approved_by": "user",
+  "approved_on": "2026-10-10",
+  "durations_ms": [
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30,
+    30
+  ]
+}

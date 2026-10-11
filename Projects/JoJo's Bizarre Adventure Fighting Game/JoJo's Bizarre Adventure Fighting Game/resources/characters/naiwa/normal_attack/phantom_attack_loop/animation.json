@@ -1,0 +1,56 @@
+{
+  "character": "naiwa",
+  "action": "normal_attack_phantom_loop",
+  "stage": "approved",
+  "frame_count": 8,
+  "frame_size": [
+    160,
+    160
+  ],
+  "sheet_size": [
+    640,
+    320
+  ],
+  "sheet_grid": [
+    4,
+    2
+  ],
+  "order": "left to right, top to bottom",
+  "durations_ms": [
+    120,
+    120,
+    90,
+    120,
+    120,
+    120,
+    90,
+    220
+  ],
+  "duration_ms": 1000,
+  "loop": true,
+  "summon_lifetime_ms": 5000,
+  "hit_frames": [
+    3,
+    7
+  ],
+  "hit_directions": {
+    "3": "right",
+    "7": "left"
+  },
+  "energy_gain_per_hit": 5,
+  "ground_y": 149,
+  "frame_files": [
+    "frames/naiwa_phantom_attack_1.png",
+    "frames/naiwa_phantom_attack_2.png",
+    "frames/naiwa_phantom_attack_3.png",
+    "frames/naiwa_phantom_attack_4.png",
+    "frames/naiwa_phantom_attack_5.png",
+    "frames/naiwa_phantom_attack_6.png",
+    "frames/naiwa_phantom_attack_7.png",
+    "frames/naiwa_phantom_attack_8.png"
+  ],
+  "sheet_file": "naiwa_phantom_attack_loop_sheet.png",
+  "alpha": "PNG RGBA transparency preserved",
+  "creative_mode": "built-in image_gen",
+  "source_reference": "../reference_gif_keyposes.png"
+}

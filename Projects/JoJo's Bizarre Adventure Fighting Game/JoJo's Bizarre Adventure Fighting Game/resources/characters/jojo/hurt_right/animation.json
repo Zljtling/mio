@@ -1,0 +1,71 @@
+{
+  "character": "jojo",
+  "action": "hurt",
+  "direction": "right",
+  "stage": "approved",
+  "approved": true,
+  "frame_count": 16,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sheet_size": [
+    512,
+    512
+  ],
+  "sheet_grid": [
+    4,
+    4
+  ],
+  "order": "left to right, top to bottom",
+  "durations_ms": [
+    20,
+    40,
+    20,
+    20,
+    80,
+    30,
+    30,
+    30,
+    60,
+    40,
+    40,
+    50,
+    30,
+    30,
+    30,
+    120
+  ],
+  "duration_ms": 670,
+  "loop": false,
+  "frame_files": [
+    "frames/jojo_hurt_1.png",
+    "frames/jojo_hurt_2.png",
+    "frames/jojo_hurt_3.png",
+    "frames/jojo_hurt_4.png",
+    "frames/jojo_hurt_5.png",
+    "frames/jojo_hurt_6.png",
+    "frames/jojo_hurt_7.png",
+    "frames/jojo_hurt_8.png",
+    "frames/jojo_hurt_9.png",
+    "frames/jojo_hurt_10.png",
+    "frames/jojo_hurt_11.png",
+    "frames/jojo_hurt_12.png",
+    "frames/jojo_hurt_13.png",
+    "frames/jojo_hurt_14.png",
+    "frames/jojo_hurt_15.png",
+    "frames/jojo_hurt_16.png"
+  ],
+  "sheet_file": "jojo_hurt_right_sheet.png",
+  "alpha": "0 or 255",
+  "approved_keyposes_preserved_at_frames": {
+    "contact": 2,
+    "recoil": 5,
+    "brace": 9,
+    "recovery": 12
+  },
+  "reaction_direction": "strike arrives from screen right; head and torso recoil back-left",
+  "note": "Grounded normal standing hit reaction. Approved key poses and original idle endpoints preserved exactly.",
+  "approved_by": "user",
+  "approved_on": "2026-10-06"
+}

@@ -1,0 +1,62 @@
+{
+  "character": "jojo",
+  "action": "idle",
+  "direction": "right",
+  "approved": true,
+  "approved_by": "user",
+  "frame_count": 16,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sheet_size": [
+    512,
+    512
+  ],
+  "sheet_grid": [
+    4,
+    4
+  ],
+  "order": "left to right, top to bottom",
+  "durations_ms": [
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80
+  ],
+  "duration_ms": 1280.0,
+  "loop": true,
+  "frame_files": [
+    "frames/jojo_idle_1.png",
+    "frames/jojo_idle_2.png",
+    "frames/jojo_idle_3.png",
+    "frames/jojo_idle_4.png",
+    "frames/jojo_idle_5.png",
+    "frames/jojo_idle_6.png",
+    "frames/jojo_idle_7.png",
+    "frames/jojo_idle_8.png",
+    "frames/jojo_idle_9.png",
+    "frames/jojo_idle_10.png",
+    "frames/jojo_idle_11.png",
+    "frames/jojo_idle_12.png",
+    "frames/jojo_idle_13.png",
+    "frames/jojo_idle_14.png",
+    "frames/jojo_idle_15.png",
+    "frames/jojo_idle_16.png"
+  ],
+  "sheet_file": "jojo_idle_right_sheet.png",
+  "alpha": "0 or 255",
+  "frame_duration_ms": 80
+}

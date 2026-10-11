@@ -1,0 +1,80 @@
+{
+  "character": "jojo",
+  "action": "kick",
+  "direction": "right",
+  "stage": "approved",
+  "approved": true,
+  "attack_leg": "anatomical right / near / lighter",
+  "support_leg": "anatomical left / far / darker",
+  "frame_count": 20,
+  "frame_size": [
+    160,
+    128
+  ],
+  "sheet_size": [
+    800,
+    512
+  ],
+  "sheet_grid": [
+    5,
+    4
+  ],
+  "order": "left to right, top to bottom",
+  "durations_ms": [
+    70,
+    40,
+    40,
+    40,
+    40,
+    40,
+    50,
+    20,
+    20,
+    20,
+    60,
+    20,
+    20,
+    30,
+    40,
+    40,
+    40,
+    40,
+    40,
+    150
+  ],
+  "duration_ms": 860,
+  "loop": false,
+  "frame_files": [
+    "frames/jojo_kick_1.png",
+    "frames/jojo_kick_2.png",
+    "frames/jojo_kick_3.png",
+    "frames/jojo_kick_4.png",
+    "frames/jojo_kick_5.png",
+    "frames/jojo_kick_6.png",
+    "frames/jojo_kick_7.png",
+    "frames/jojo_kick_8.png",
+    "frames/jojo_kick_9.png",
+    "frames/jojo_kick_10.png",
+    "frames/jojo_kick_11.png",
+    "frames/jojo_kick_12.png",
+    "frames/jojo_kick_13.png",
+    "frames/jojo_kick_14.png",
+    "frames/jojo_kick_15.png",
+    "frames/jojo_kick_16.png",
+    "frames/jojo_kick_17.png",
+    "frames/jojo_kick_18.png",
+    "frames/jojo_kick_19.png",
+    "frames/jojo_kick_20.png"
+  ],
+  "sheet_file": "jojo_kick_right_sheet.png",
+  "alpha": "0 or 255",
+  "approved_keyposes_preserved_at_frames": {
+    "windup": 4,
+    "chamber": 7,
+    "contact": 11,
+    "retraction": 15
+  },
+  "note": "The corrected left/back torso contact is preserved exactly at frame11. Wider transparent canvas accommodates kick at original character scale.",
+  "approved_by": "user",
+  "approved_on": "2026-10-06"
+}

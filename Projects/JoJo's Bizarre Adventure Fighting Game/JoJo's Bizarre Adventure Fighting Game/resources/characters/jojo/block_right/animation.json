@@ -1,0 +1,114 @@
+{
+  "character": "jojo",
+  "action": "block",
+  "direction": "right",
+  "stage": "approved",
+  "approved": true,
+  "frame_count": 16,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sheet_size": [
+    512,
+    512
+  ],
+  "sheet_grid": [
+    4,
+    4
+  ],
+  "order": "left to right, top to bottom",
+  "durations_ms": [
+    40,
+    40,
+    40,
+    30,
+    30,
+    100,
+    160,
+    30,
+    70,
+    40,
+    100,
+    40,
+    40,
+    40,
+    40,
+    120
+  ],
+  "duration_ms": 960,
+  "loop": false,
+  "frame_files": [
+    "frames/jojo_block_1.png",
+    "frames/jojo_block_2.png",
+    "frames/jojo_block_3.png",
+    "frames/jojo_block_4.png",
+    "frames/jojo_block_5.png",
+    "frames/jojo_block_6.png",
+    "frames/jojo_block_7.png",
+    "frames/jojo_block_8.png",
+    "frames/jojo_block_9.png",
+    "frames/jojo_block_10.png",
+    "frames/jojo_block_11.png",
+    "frames/jojo_block_12.png",
+    "frames/jojo_block_13.png",
+    "frames/jojo_block_14.png",
+    "frames/jojo_block_15.png",
+    "frames/jojo_block_16.png"
+  ],
+  "sheet_file": "jojo_block_right_sheet.png",
+  "alpha": "0 or 255",
+  "approved_keyposes_preserved_at_frames": {
+    "raise": 3,
+    "guard": 6,
+    "absorb": 9,
+    "release": 13
+  },
+  "guard_keypose_repeated_at_frames": [
+    7,
+    11
+  ],
+  "reaction_direction": "blocked strike arrives from screen right; closed forearm shield maintained as torso yields back-left",
+  "phases": {
+    "enter": {
+      "frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "loop": false
+    },
+    "hold": {
+      "frames": [
+        6,
+        7
+      ],
+      "loop": true
+    },
+    "impact": {
+      "frames": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "loop": false
+    },
+    "exit": {
+      "frames": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "loop": false
+    }
+  },
+  "note": "Standing high block, with enter, hold, blocked-impact and exit phases. Hold uses the exact approved guard for a stable shield and planted feet. Approved key poses and original idle endpoints preserved exactly.",
+  "approved_by": "user",
+  "approved_on": "2026-10-06"
+}

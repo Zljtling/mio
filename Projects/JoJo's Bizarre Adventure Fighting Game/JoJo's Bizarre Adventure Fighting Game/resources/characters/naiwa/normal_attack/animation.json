@@ -1,0 +1,34 @@
+{
+  "character": "naiwa",
+  "action": "normal_attack",
+  "stage": "approved",
+  "asset_only": true,
+  "reference_gif": "../奶娃普通攻击召唤的幻影素材.gif",
+  "phantom_design": "pixel-art adaptation of yellow S-shaped character in reference GIF",
+  "phase_order": [
+    "cast_right",
+    "phantom_summon",
+    "phantom_attack_loop",
+    "phantom_disappear"
+  ],
+  "phase_manifests": {
+    "cast_right": "cast_right/animation.json",
+    "phantom_summon": "phantom_summon/animation.json",
+    "phantom_attack_loop": "phantom_attack_loop/animation.json",
+    "phantom_disappear": "phantom_disappear/animation.json"
+  },
+  "summon_trigger_frame": 5,
+  "summon_trigger_time_ms": 235,
+  "phantom_anchor": "owner_foot_center",
+  "phantom_offset_from_owner_top_left": [
+    -16,
+    -33
+  ],
+  "attack_loop_duration_ms": 1000,
+  "attack_active_duration_ms": 5000,
+  "attack_loop_repetitions": 5,
+  "right_hit_frame": 3,
+  "left_hit_frame": 7,
+  "energy_gain_per_hit": 5,
+  "note": "visual assets and suggested timing only; gameplay logic not changed"
+}
