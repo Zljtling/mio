@@ -8,7 +8,9 @@ Game::Game()
 	, mRenderer(nullptr)
 	, mTicksCount(0)
 	, mIsRunning(true)
-	, mPaddleDir(0)
+	, mPaddleDir_P1(0)
+	, mPaddleDir_P2(0)
+	, ball(2)
 {
 
 }
@@ -34,12 +36,18 @@ bool Game::Initialize()
 		return false;
 	}
 	//球拍和球位置及球速度设置
-	mPaddlePos.x = 10.0f;
-	mPaddlePos.y = 768.0f / 2.0f;
-	mBallPos.x = 1024.0f / 2.0f;
-	mBallPos.y = 768.0f / 2.0f;
-	mBallVel.x = -200.0f;
-	mBallVel.y = 235.0f;
+	mPaddlePos_P1.x = 10.0f;
+	mPaddlePos_P1.y = 768.0f / 2.0f;
+	mPaddlePos_P2.x = 1009.0f;
+	mPaddlePos_P2.y = 768.0f / 2.0f;
+	ball[0].mBallPos.x = 1024.0f / 2.0f;
+	ball[0].mBallPos.y = 768.0f / 2.0f;
+	ball[0].mBallVel.x = -200.0f;
+	ball[0].mBallVel.y = 235.0f;
+	ball[1].mBallPos.x = 1024.0f / 2.0f;
+	ball[1].mBallPos.y = 768.0f / 2.0f;
+	ball[1].mBallVel.x = 200.0f;
+	ball[1].mBallVel.y = -235.0f;
 	return true;
 }
 
@@ -70,11 +78,16 @@ void Game::ProcessInput()
 	if (state[SDL_SCANCODE_ESCAPE])
 		mIsRunning = false;
 	//球拍按键
-	mPaddleDir = 0;
+	mPaddleDir_P1 = 0;
 	if (state[SDL_SCANCODE_W])
-		mPaddleDir -= 1;
+		mPaddleDir_P1 -= 1;
 	if (state[SDL_SCANCODE_S])
-		mPaddleDir += 1;
+		mPaddleDir_P1 += 1;
+	mPaddleDir_P2 = 0;
+	if (state[SDL_SCANCODE_I])
+		mPaddleDir_P2 -= 1;
+	if (state[SDL_SCANCODE_K])
+		mPaddleDir_P2 += 1;
 }
 
 void Game::UpdateGame()
@@ -85,32 +98,59 @@ void Game::UpdateGame()
 		deltaTime = 0.05f;
 	mTicksCount = SDL_GetTicks();
 	//球拍的移动和边界检测
-	if (mPaddleDir != 0)
+	if (mPaddleDir_P1 != 0)
 	{
-		mPaddlePos.y += mPaddleDir * 300.0f * deltaTime;
-		if (mPaddlePos.y < (paddleH / 2.0f + thickness))
-			mPaddlePos.y = paddleH / 2.0f + thickness;
-		else if (mPaddlePos.y > (768.0f - paddleH / 2.0f - thickness))
-			mPaddlePos.y = 768.0f - paddleH / 2.0f - thickness;
+		mPaddlePos_P1.y += mPaddleDir_P1 * 300.0f * deltaTime;
+		if (mPaddlePos_P1.y < (paddleH / 2.0f + thickness))
+			mPaddlePos_P1.y = paddleH / 2.0f + thickness;
+		else if (mPaddlePos_P1.y > (768.0f - paddleH / 2.0f - thickness))
+			mPaddlePos_P1.y = 768.0f - paddleH / 2.0f - thickness;
+	}
+	if (mPaddleDir_P2 != 0)
+	{
+		mPaddlePos_P2.y += mPaddleDir_P2 * 300.0f * deltaTime;
+		if (mPaddlePos_P2.y < (paddleH / 2.0f + thickness))
+			mPaddlePos_P2.y = paddleH / 2.0f + thickness;
+		else if (mPaddlePos_P2.y > (768.0f - paddleH / 2.0f - thickness))
+			mPaddlePos_P2.y = 768.0f - paddleH / 2.0f - thickness;
 	}
 	//球的移动速率
-	mBallPos.x += mBallVel.x * deltaTime;
-	mBallPos.y += mBallVel.y * deltaTime;
-
+	ball[0].mBallPos.x += ball[0].mBallVel.x * deltaTime;
+	ball[0].mBallPos.y += ball[0].mBallVel.y * deltaTime;
+	ball[1].mBallPos.x += ball[1].mBallVel.x * deltaTime;
+	ball[1].mBallPos.y += ball[1].mBallVel.y * deltaTime;
 	//计算球拍中心与球中心的高度差
-	float diff = mPaddlePos.y - mBallPos.y;
-	diff = (diff > 0.0f) ? diff : -diff;
-	if (diff <= paddleH / 2.0f && mBallPos.x <= 25.0f && mBallPos.x >= 20.0f && mBallVel.x < 0.0f)
-		mBallVel.x *= -1.0f;
-	else if (mBallPos.x <= 0.0f)
+	float diff_P1_b0 = mPaddlePos_P1.y - ball[0].mBallPos.y;
+	float diff_P2_b0 = mPaddlePos_P2.y - ball[0].mBallPos.y;
+	diff_P1_b0 = (diff_P1_b0 > 0.0f) ? diff_P1_b0 : -diff_P1_b0;
+	diff_P2_b0 = (diff_P2_b0 > 0.0f) ? diff_P2_b0 : -diff_P2_b0;
+	if (diff_P1_b0 <= paddleH / 2.0f && ball[0].mBallPos.x <= 25.0f && ball[0].mBallPos.x >= 20.0f && ball[0].mBallVel.x < 0.0f)
+		ball[0].mBallVel.x *= -1.0f;
+	else if (ball[0].mBallPos.x <= 0.0f || ball[0].mBallPos.x >= 1024.0f)
 		mIsRunning = false;
-	else if (mBallPos.x >= (1024.0f - thickness) && mBallVel.x > 0.0f)
-		mBallVel.x *= -1.0f;
+	else if (diff_P2_b0 <= paddleH / 2.0f && ball[0].mBallPos.x >= (1024.0f - thickness) && ball[0].mBallPos.x <= 1014.0f && ball[0].mBallVel.x > 0.0f)
+		ball[0].mBallVel.x *= -1.0f;
 	//处理球碰撞上下墙反弹逻辑
-	if (mBallPos.y <= thickness && mBallVel.y < 0.0f)
-		mBallVel.y *= -1;
-	else if (mBallPos.y >= (768 - thickness) && mBallVel.y > 0.0f)
-		mBallVel.y *= -1;
+	if (ball[0].mBallPos.y <= thickness && ball[0].mBallVel.y < 0.0f)
+		ball[0].mBallVel.y *= -1;
+	else if (ball[0].mBallPos.y >= (768 - thickness) && ball[0].mBallVel.y > 0.0f)
+		ball[0].mBallVel.y *= -1;
+
+	float diff_P1_b1 = mPaddlePos_P1.y - ball[1].mBallPos.y;
+	float diff_P2_b1 = mPaddlePos_P2.y - ball[1].mBallPos.y;
+	diff_P1_b1 = (diff_P1_b1 > 0.0f) ? diff_P1_b1 : -diff_P1_b1;
+	diff_P2_b1 = (diff_P2_b1 > 0.0f) ? diff_P2_b1 : -diff_P2_b1;
+	if (diff_P1_b1 <= paddleH / 2.0f && ball[1].mBallPos.x <= 25.0f && ball[1].mBallPos.x >= 20.0f && ball[1].mBallVel.x < 0.0f)
+		ball[1].mBallVel.x *= -1.0f;
+	else if (ball[1].mBallPos.x <= 0.0f || ball[1].mBallPos.x >= 1024.0f)
+		mIsRunning = false;
+	else if (diff_P2_b1 <= paddleH / 2.0f && ball[1].mBallPos.x >= (1024.0f - thickness) && ball[1].mBallPos.x <= 1014.0f && ball[1].mBallVel.x > 0.0f)
+		ball[1].mBallVel.x *= -1.0f;
+	//处理球碰撞上下墙反弹逻辑
+	if (ball[1].mBallPos.y <= thickness && ball[1].mBallVel.y < 0.0f)
+		ball[1].mBallVel.y *= -1;
+	else if (ball[1].mBallPos.y >= (768 - thickness) && ball[1].mBallVel.y > 0.0f)
+		ball[1].mBallVel.y *= -1;
 }
 
 void Game::GenerateOutput()
@@ -129,27 +169,36 @@ void Game::GenerateOutput()
 	SDL_RenderFillRect(mRenderer, &wall);
 	wall.y = 768 - thickness;
 	SDL_RenderFillRect(mRenderer, &wall);
-	wall.x = 1024 - thickness;
-	wall.y = 0;
-	wall.w = thickness;
-	wall.h = 1024;
-	SDL_RenderFillRect(mRenderer, &wall);
 	//绘制球拍
-	SDL_FRect paddle{
-		static_cast<int>(mPaddlePos.x),
-		static_cast<int>(mPaddlePos.y - paddleH / 2),
+	SDL_FRect paddle_P1{
+		static_cast<int>(mPaddlePos_P1.x),
+		static_cast<int>(mPaddlePos_P1.y - paddleH / 2),
 		thickness,
 		static_cast<int>(paddleH)
 	};
-	SDL_RenderFillRect(mRenderer, &paddle);
+	SDL_RenderFillRect(mRenderer, &paddle_P1);
+	SDL_FRect paddle_P2{
+		static_cast<int>(mPaddlePos_P2.x),
+		static_cast<int>(mPaddlePos_P2.y - paddleH / 2),
+		thickness,
+		static_cast<int>(paddleH)
+	};
+	SDL_RenderFillRect(mRenderer, &paddle_P2);
 	//绘制球
-	SDL_FRect ball{
-		static_cast<int>(mBallPos.x - thickness / 2),
-		static_cast<int>(mBallPos.y - thickness / 2),
+	SDL_FRect ball_1{
+		static_cast<int>(ball[0].mBallPos.x - thickness / 2),
+		static_cast<int>(ball[0].mBallPos.y - thickness / 2),
 		thickness,
 		thickness
 	};
-	SDL_RenderFillRect(mRenderer, &ball);
+	SDL_RenderFillRect(mRenderer, &ball_1);
+	SDL_FRect ball_2{
+		static_cast<int>(ball[1].mBallPos.x - thickness / 2),
+		static_cast<int>(ball[1].mBallPos.y - thickness / 2),
+		thickness,
+		thickness
+	};
+	SDL_RenderFillRect(mRenderer, &ball_2);
 	//绘制图像
 	SDL_RenderPresent(mRenderer);
 }

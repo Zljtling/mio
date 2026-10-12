@@ -2,13 +2,18 @@
 #define _GAME_H_
 
 #include <SDL3/SDL.h>
+#include <vector>
 
 struct Vector2
 {
 	float x;
 	float y;
 };
-
+struct Ball
+{
+	Vector2 mBallPos;
+	Vector2 mBallVel;
+};
 class Game
 {
 public:
@@ -32,10 +37,11 @@ private:
 	//游戏循环判断
 	bool mIsRunning;
 
-	int mPaddleDir;
-	Vector2 mPaddlePos;
-	Vector2 mBallPos;
-	Vector2 mBallVel;
+	int mPaddleDir_P1;
+	int mPaddleDir_P2;
+	Vector2 mPaddlePos_P1;
+	Vector2 mPaddlePos_P2;
+	std::vector<Ball> ball;
 };
 
 
