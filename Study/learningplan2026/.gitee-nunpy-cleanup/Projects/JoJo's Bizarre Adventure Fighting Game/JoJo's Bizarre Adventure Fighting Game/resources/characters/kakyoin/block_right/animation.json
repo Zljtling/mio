@@ -1,0 +1,91 @@
+{
+  "character": "kakyoin",
+  "action": "block",
+  "direction": "right",
+  "approved": true,
+  "stage": "final",
+  "frame_count": 16,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sheet_size": [
+    512,
+    512
+  ],
+  "sheet_grid": [
+    4,
+    4
+  ],
+  "order": "left to right, top to bottom",
+  "durations_ms": [
+    10,
+    10,
+    30,
+    20,
+    20,
+    30,
+    30,
+    40,
+    30,
+    40,
+    30,
+    10,
+    20,
+    20,
+    10,
+    10
+  ],
+  "duration_ms": 360,
+  "loop": false,
+  "hold_last_frame": true,
+  "ground_y": 118,
+  "frame_files": [
+    "frames/kakyoin_block_1.png",
+    "frames/kakyoin_block_2.png",
+    "frames/kakyoin_block_3.png",
+    "frames/kakyoin_block_4.png",
+    "frames/kakyoin_block_5.png",
+    "frames/kakyoin_block_6.png",
+    "frames/kakyoin_block_7.png",
+    "frames/kakyoin_block_8.png",
+    "frames/kakyoin_block_9.png",
+    "frames/kakyoin_block_10.png",
+    "frames/kakyoin_block_11.png",
+    "frames/kakyoin_block_12.png",
+    "frames/kakyoin_block_13.png",
+    "frames/kakyoin_block_14.png",
+    "frames/kakyoin_block_15.png",
+    "frames/kakyoin_block_16.png"
+  ],
+  "sheet_file": "kakyoin_block_right_sheet.png",
+  "approved_keys_preserved_byte_for_byte": true,
+  "body_retreat": false,
+  "guard_style": "forward_crossed_forearms_in_front_of_face",
+  "head_motion": "forward_bow",
+  "creative_mode": "built-in imagegen",
+  "resources_written": true,
+  "code_written": false,
+  "approved_existing_frames_preserved_byte_for_byte": true,
+  "guard_hold_frame": 4,
+  "segments": {
+    "raise": [
+      1,
+      4
+    ],
+    "hold": [
+      4,
+      5
+    ],
+    "block_reaction": [
+      6,
+      10
+    ],
+    "release": [
+      11,
+      16
+    ]
+  },
+  "approved_by": "user",
+  "approved_on": "2026-10-07"
+}

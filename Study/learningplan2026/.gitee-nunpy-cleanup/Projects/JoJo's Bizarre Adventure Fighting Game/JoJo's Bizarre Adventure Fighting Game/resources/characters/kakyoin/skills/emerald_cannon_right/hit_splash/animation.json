@@ -1,0 +1,46 @@
+{
+  "animation": "emerald_cannon_hit",
+  "approved": true,
+  "frame_count": 6,
+  "frame_size": [
+    64,
+    64
+  ],
+  "duration_ms": 300,
+  "loop": false,
+  "origin": [
+    38,
+    32
+  ],
+  "sheet": "hierophant_green_emerald_cannon_hit_sheet.png",
+  "frames": [
+    {
+      "file": "frames/hierophant_green_emerald_cannon_hit_1.png",
+      "duration_ms": 50
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_hit_2.png",
+      "duration_ms": 50
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_hit_3.png",
+      "duration_ms": 50
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_hit_4.png",
+      "duration_ms": 50
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_hit_5.png",
+      "duration_ms": 50
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_hit_6.png",
+      "duration_ms": 50
+    }
+  ],
+  "trigger": "on_hit",
+  "repeat_while_contact_demo_only": true,
+  "stage": "final",
+  "approved_on": "2026-10-08"
+}

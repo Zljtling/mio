@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MESA.vcxproj" Id="9ca5ec96-085d-4269-8785-87449de899a5" />
+</Solution>

@@ -1,0 +1,87 @@
+{
+  "owner": "kakyoin",
+  "stand": "hierophant_green",
+  "skill": "emerald_cannon_right",
+  "stage": "final",
+  "approved": true,
+  "duration_ms": 4000,
+  "active_start_ms": 560,
+  "active_duration_ms": 3000,
+  "active_end_ms": 3560,
+  "recovery_and_exit_ms": 440,
+  "stand_animation": "stand/animation.json",
+  "spiral_wind_animation": "spiral_wind/animation.json",
+  "magic_circle_animation": "magic_circle/animation.json",
+  "hit_animation": "hit_splash/animation.json",
+  "owner_idle_used_for_preview": true,
+  "owner_position": [
+    56,
+    112
+  ],
+  "stand_position": [
+    112,
+    84
+  ],
+  "circle_position": [
+    224,
+    105
+  ],
+  "circle_center": [
+    256,
+    145
+  ],
+  "wind_position": [
+    252,
+    105
+  ],
+  "preview_hit_position": [
+    462,
+    113
+  ],
+  "hit_origin": [
+    38,
+    32
+  ],
+  "hit_trigger": "on_hit",
+  "hit_repeat_only_during_contact": true,
+  "effect_loops_during_active": 5,
+  "stand_sustain_frame": 15,
+  "ground_reference_y": 230,
+  "hover_gap_px": 6,
+  "layers_separate": true,
+  "render_order": [
+    "owner",
+    "stand",
+    "magic_circle",
+    "spiral_wind",
+    "hit_splash"
+  ],
+  "approved_effect_pngs_preserved": 24,
+  "owner_stand_overlap_pixels": 0,
+  "code_written": false,
+  "resources_written": true,
+  "creative_mode": "built-in imagegen",
+  "approved_on": "2026-10-08",
+  "reference_canvas_size": [
+    640,
+    256
+  ],
+  "owner_frame_size": [
+    128,
+    128
+  ],
+  "layer_offsets_from_owner": {
+    "stand": [
+      56,
+      -28
+    ],
+    "magic_circle": [
+      168,
+      -7
+    ],
+    "spiral_wind": [
+      196,
+      -7
+    ]
+  }
+}

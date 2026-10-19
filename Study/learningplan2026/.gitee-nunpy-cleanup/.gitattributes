@@ -1,0 +1,21 @@
+* text=auto
+*.cpp text eol=crlf
+*.h text eol=crlf
+*.hpp text eol=crlf
+*.vcxproj text eol=crlf
+*.filters text eol=crlf
+*.slnx text eol=crlf
+*.rc text eol=crlf
+*.iss text eol=crlf
+*.md text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.wav binary
+*.mp3 binary
+*.mp4 binary
+*.avi binary
+*.zip binary
+

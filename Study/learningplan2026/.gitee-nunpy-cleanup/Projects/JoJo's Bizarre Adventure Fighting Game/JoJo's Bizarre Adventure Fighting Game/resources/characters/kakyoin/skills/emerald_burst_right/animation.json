@@ -1,0 +1,288 @@
+{
+  "owner": "kakyoin",
+  "stand": "hierophant_green",
+  "animation": "emerald_burst_right",
+  "approved": true,
+  "stage": "final",
+  "frame_count": 36,
+  "frame_size": [
+    160,
+    160
+  ],
+  "duration_ms": 1440,
+  "loop": false,
+  "sheet": "stand/hierophant_green_emerald_burst_sheet.png",
+  "frames": [
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_1.png",
+      "duration_ms": 40,
+      "stage": "召唤",
+      "opacity": 0
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_2.png",
+      "duration_ms": 40,
+      "stage": "召唤",
+      "opacity": 0.2
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_3.png",
+      "duration_ms": 40,
+      "stage": "召唤",
+      "opacity": 0.4
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_4.png",
+      "duration_ms": 40,
+      "stage": "召唤",
+      "opacity": 0.6
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_5.png",
+      "duration_ms": 40,
+      "stage": "召唤",
+      "opacity": 0.8
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_6.png",
+      "duration_ms": 40,
+      "stage": "召唤",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_7.png",
+      "duration_ms": 40,
+      "stage": "合掌",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_8.png",
+      "duration_ms": 40,
+      "stage": "合掌",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_9.png",
+      "duration_ms": 40,
+      "stage": "合掌",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_10.png",
+      "duration_ms": 40,
+      "stage": "合掌",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_11.png",
+      "duration_ms": 40,
+      "stage": "合掌",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_12.png",
+      "duration_ms": 40,
+      "stage": "上举",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_13.png",
+      "duration_ms": 40,
+      "stage": "上举",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_14.png",
+      "duration_ms": 40,
+      "stage": "上举",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_15.png",
+      "duration_ms": 40,
+      "stage": "上举",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_16.png",
+      "duration_ms": 40,
+      "stage": "上举",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_17.png",
+      "duration_ms": 40,
+      "stage": "释放",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_18.png",
+      "duration_ms": 40,
+      "stage": "释放",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_19.png",
+      "duration_ms": 40,
+      "stage": "释放",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_20.png",
+      "duration_ms": 40,
+      "stage": "释放",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_21.png",
+      "duration_ms": 40,
+      "stage": "降手",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_22.png",
+      "duration_ms": 40,
+      "stage": "降手",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_23.png",
+      "duration_ms": 40,
+      "stage": "降手",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_24.png",
+      "duration_ms": 40,
+      "stage": "降手",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_25.png",
+      "duration_ms": 40,
+      "stage": "收招",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_26.png",
+      "duration_ms": 40,
+      "stage": "收招",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_27.png",
+      "duration_ms": 40,
+      "stage": "收招",
+      "opacity": 1
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_28.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.9
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_29.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.78
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_30.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.65
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_31.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.52
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_32.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.4
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_33.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.28
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_34.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.17
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_35.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.08
+    },
+    {
+      "file": "stand/frames/hierophant_green_emerald_burst_36.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0
+    }
+  ],
+  "release_frame": 17,
+  "release_time_ms": 640,
+  "entry_frames": [
+    1,
+    6
+  ],
+  "exit_frames": [
+    28,
+    36
+  ],
+  "fully_invisible_endpoint": 36,
+  "layers_separate": true,
+  "owner_idle_used_for_preview": true,
+  "owner_position": [
+    120,
+    112
+  ],
+  "stand_position": [
+    65,
+    75
+  ],
+  "render_order": [
+    "stand",
+    "owner",
+    "explosion"
+  ],
+  "explosion": {
+    "file": "../../effects/emerald_burst/hierophant_green_emerald_burst.png",
+    "frame_count": 1,
+    "size": [
+      48,
+      48
+    ],
+    "placement_managed_by_user": true,
+    "preview_copies": 3,
+    "preview_visible_frames": [
+      17,
+      20
+    ]
+  },
+  "approved_keyframe_sha256": {
+    "6": "1ddca13c96c7c3bad9891f30edfa51de710d9d7ae689d1bc8a24d76cd06176ee",
+    "11": "0ee67771a4a1862df3b585420b996cb148cdd4bd9e96bb51a33736343e747d67",
+    "16": "e8cf33f389b9df9964c08225122f1b0e2857e85c4c10cac7fd3d3f6c25260f1c",
+    "17": "e8cf33f389b9df9964c08225122f1b0e2857e85c4c10cac7fd3d3f6c25260f1c",
+    "18": "e8cf33f389b9df9964c08225122f1b0e2857e85c4c10cac7fd3d3f6c25260f1c",
+    "19": "e8cf33f389b9df9964c08225122f1b0e2857e85c4c10cac7fd3d3f6c25260f1c",
+    "20": "e8cf33f389b9df9964c08225122f1b0e2857e85c4c10cac7fd3d3f6c25260f1c",
+    "25": "b89169b813f74d272d9ffc83976c2e6ba25763dec1c4041c04233bf511d4c8e9",
+    "26": "b89169b813f74d272d9ffc83976c2e6ba25763dec1c4041c04233bf511d4c8e9",
+    "27": "b89169b813f74d272d9ffc83976c2e6ba25763dec1c4041c04233bf511d4c8e9"
+  },
+  "resources_written": true,
+  "code_written": false,
+  "approved_on": "2026-10-08"
+}

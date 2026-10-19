@@ -1,0 +1,79 @@
+{
+  "character": "kakyoin",
+  "action": "quill_shot",
+  "direction": "right",
+  "approved": true,
+  "stage": "final",
+  "frame_count": 16,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sheet_size": [
+    512,
+    512
+  ],
+  "sheet_grid": [
+    4,
+    4
+  ],
+  "order": "left to right, top to bottom",
+  "durations_ms": [
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20
+  ],
+  "duration_ms": 320,
+  "loop": false,
+  "hold_last_frame": true,
+  "ground_y": 118,
+  "frame_files": [
+    "frames/kakyoin_quill_shot_1.png",
+    "frames/kakyoin_quill_shot_2.png",
+    "frames/kakyoin_quill_shot_3.png",
+    "frames/kakyoin_quill_shot_4.png",
+    "frames/kakyoin_quill_shot_5.png",
+    "frames/kakyoin_quill_shot_6.png",
+    "frames/kakyoin_quill_shot_7.png",
+    "frames/kakyoin_quill_shot_8.png",
+    "frames/kakyoin_quill_shot_9.png",
+    "frames/kakyoin_quill_shot_10.png",
+    "frames/kakyoin_quill_shot_11.png",
+    "frames/kakyoin_quill_shot_12.png",
+    "frames/kakyoin_quill_shot_13.png",
+    "frames/kakyoin_quill_shot_14.png",
+    "frames/kakyoin_quill_shot_15.png",
+    "frames/kakyoin_quill_shot_16.png"
+  ],
+  "sheet_file": "kakyoin_quill_shot_right_sheet.png",
+  "projectile_release_frame": 5,
+  "projectile_release_time_ms": 80,
+  "projectile_is_separate": true,
+  "approved_keyframe_slots": [
+    1,
+    4,
+    5,
+    11,
+    16
+  ],
+  "approved_keys_preserved_byte_for_byte": true,
+  "creative_mode": "built-in imagegen",
+  "code_written": false,
+  "approval": "用户：通过",
+  "approval_date": "2026-10-07",
+  "projectile_asset": "../projectiles/quill_right/kakyoin_quill_projectile_right.png",
+  "hit_effect_animation": "../effects/quill_hit/animation.json"
+}

@@ -1,0 +1,48 @@
+{
+  "character": "naiwa",
+  "action": "special_skill_cast",
+  "direction": "right",
+  "stage": "approved",
+  "durations_ms": [
+    70,
+    80,
+    90,
+    100,
+    110,
+    100,
+    90,
+    80
+  ],
+  "duration_ms": 720,
+  "loop": false,
+  "summon_trigger_frame": 4,
+  "ground_y": 116,
+  "idle_endpoints_preserved_exactly": true,
+  "frame_count": 8,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sheet_size": [
+    512,
+    256
+  ],
+  "sheet_grid": [
+    4,
+    2
+  ],
+  "order": "left to right, top to bottom",
+  "frame_files": [
+    "frames/naiwa_special_cast_1.png",
+    "frames/naiwa_special_cast_2.png",
+    "frames/naiwa_special_cast_3.png",
+    "frames/naiwa_special_cast_4.png",
+    "frames/naiwa_special_cast_5.png",
+    "frames/naiwa_special_cast_6.png",
+    "frames/naiwa_special_cast_7.png",
+    "frames/naiwa_special_cast_8.png"
+  ],
+  "sheet_file": "naiwa_special_cast_right_sheet.png",
+  "alpha": "PNG RGBA transparency preserved",
+  "creative_mode": "built-in image_gen"
+}

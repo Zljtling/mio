@@ -1,0 +1,47 @@
+{
+  "character": "naiwa_plain",
+  "action": "ultimate_target_transform",
+  "stage": "approved",
+  "durations_ms": [
+    70,
+    70,
+    80,
+    90,
+    90,
+    90,
+    80,
+    70
+  ],
+  "duration_ms": 640,
+  "loop": false,
+  "target_visual": "generic enemy silhouette becomes unclothed Naiwa mascot",
+  "ground_y": 116,
+  "final_frame_matches_plain_idle_exactly": true,
+  "frame_count": 8,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sheet_size": [
+    512,
+    256
+  ],
+  "sheet_grid": [
+    4,
+    2
+  ],
+  "order": "left to right, top to bottom",
+  "frame_files": [
+    "frames/naiwa_target_transform_1.png",
+    "frames/naiwa_target_transform_2.png",
+    "frames/naiwa_target_transform_3.png",
+    "frames/naiwa_target_transform_4.png",
+    "frames/naiwa_target_transform_5.png",
+    "frames/naiwa_target_transform_6.png",
+    "frames/naiwa_target_transform_7.png",
+    "frames/naiwa_target_transform_8.png"
+  ],
+  "sheet_file": "naiwa_target_transform_sheet.png",
+  "alpha": "PNG RGBA transparency preserved",
+  "creative_mode": "built-in image_gen"
+}

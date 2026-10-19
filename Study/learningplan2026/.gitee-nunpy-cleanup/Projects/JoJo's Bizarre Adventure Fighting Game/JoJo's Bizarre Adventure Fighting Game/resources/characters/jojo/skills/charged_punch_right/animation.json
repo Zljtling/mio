@@ -1,0 +1,1759 @@
+{
+  "owner": "jojo",
+  "stand": "star_platinum",
+  "skill": "summon_charged_punch",
+  "direction": "right",
+  "stage": "approved",
+  "approved": true,
+  "frame_count": 46,
+  "duration_ms": 2000,
+  "durations_ms": [
+    60,
+    40,
+    40,
+    40,
+    50,
+    70,
+    30,
+    30,
+    30,
+    30,
+    30,
+    40,
+    40,
+    40,
+    50,
+    60,
+    20,
+    20,
+    20,
+    20,
+    30,
+    80,
+    30,
+    30,
+    40,
+    50,
+    60,
+    80,
+    40,
+    40,
+    40,
+    50,
+    60,
+    70,
+    40,
+    50,
+    40,
+    50,
+    40,
+    50,
+    40,
+    50,
+    40,
+    50,
+    40,
+    50
+  ],
+  "loop": false,
+  "stand_frame_size": [
+    160,
+    160
+  ],
+  "stand_sheet_file": "stand/star_platinum_charged_punch_right_sheet.png",
+  "stand_sheet_size": [
+    1280,
+    960
+  ],
+  "stand_sheet_grid": [
+    8,
+    6
+  ],
+  "punch_effect_frame_size": [
+    320,
+    160
+  ],
+  "punch_effect_frame_count": 8,
+  "punch_effect_sheet_file": "effects/punch/star_platinum_punch_wind_right_sheet.png",
+  "punch_effect_sheet_size": [
+    1280,
+    320
+  ],
+  "punch_effect_sheet_grid": [
+    4,
+    2
+  ],
+  "composite_preview_size": [
+    448,
+    224
+  ],
+  "owner_position": [
+    64,
+    88
+  ],
+  "phases": {
+    "summon": [
+      1,
+      6
+    ],
+    "charge": [
+      7,
+      16
+    ],
+    "strike": [
+      17,
+      22
+    ],
+    "follow_through": [
+      23,
+      28
+    ],
+    "recovery": [
+      29,
+      34
+    ],
+    "fade_out": [
+      35,
+      46
+    ]
+  },
+  "preserved_keyframes": {
+    "summon": 6,
+    "charge": 13,
+    "strike": [
+      21,
+      22
+    ],
+    "follow_through": [
+      27,
+      28
+    ],
+    "recovery": [
+      33,
+      34
+    ],
+    "approved_peak_effect": 22
+  },
+  "frames": [
+    {
+      "index": 1,
+      "duration_ms": 60,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_1.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 0
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": null,
+      "approved_pose": null
+    },
+    {
+      "index": 2,
+      "duration_ms": 40,
+      "layers_back_to_front": [
+        {
+          "file": "effects/star_platinum_summon_aura_right.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 0.3
+        },
+        {
+          "file": "stand/frames/star_platinum_charged_punch_2.png",
+          "position": [
+            0,
+            28
+          ],
+          "opacity": 0.25
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        41,
+        30,
+        118,
+        142
+      ],
+      "approved_pose": "summon"
+    },
+    {
+      "index": 3,
+      "duration_ms": 40,
+      "layers_back_to_front": [
+        {
+          "file": "effects/star_platinum_summon_aura_right.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 0.6
+        },
+        {
+          "file": "stand/frames/star_platinum_charged_punch_3.png",
+          "position": [
+            0,
+            27
+          ],
+          "opacity": 0.5
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        41,
+        30,
+        118,
+        142
+      ],
+      "approved_pose": "summon"
+    },
+    {
+      "index": 4,
+      "duration_ms": 40,
+      "layers_back_to_front": [
+        {
+          "file": "effects/star_platinum_summon_aura_right.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 0.85
+        },
+        {
+          "file": "stand/frames/star_platinum_charged_punch_4.png",
+          "position": [
+            0,
+            26
+          ],
+          "opacity": 0.75
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        41,
+        30,
+        118,
+        142
+      ],
+      "approved_pose": "summon"
+    },
+    {
+      "index": 5,
+      "duration_ms": 50,
+      "layers_back_to_front": [
+        {
+          "file": "effects/star_platinum_summon_aura_right.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "stand/frames/star_platinum_charged_punch_5.png",
+          "position": [
+            0,
+            25
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        41,
+        30,
+        118,
+        142
+      ],
+      "approved_pose": "summon"
+    },
+    {
+      "index": 6,
+      "duration_ms": 70,
+      "layers_back_to_front": [
+        {
+          "file": "effects/star_platinum_summon_aura_right.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "stand/frames/star_platinum_charged_punch_6.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        41,
+        30,
+        118,
+        142
+      ],
+      "approved_pose": "summon"
+    },
+    {
+      "index": 7,
+      "duration_ms": 30,
+      "layers_back_to_front": [
+        {
+          "file": "effects/star_platinum_summon_aura_right.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 0.35
+        },
+        {
+          "file": "stand/frames/star_platinum_charged_punch_7.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        37,
+        30,
+        115,
+        142
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 8,
+      "duration_ms": 30,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_8.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        35,
+        29,
+        113,
+        142
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 9,
+      "duration_ms": 30,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_9.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        30,
+        29,
+        111,
+        142
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 10,
+      "duration_ms": 30,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_10.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        39,
+        28,
+        120,
+        139
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 11,
+      "duration_ms": 30,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_11.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/star_platinum_charge_vortex_right.png",
+          "position": [
+            -16,
+            18
+          ],
+          "opacity": 0.3
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        46,
+        31,
+        127,
+        141
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 12,
+      "duration_ms": 40,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_12.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/star_platinum_charge_vortex_right.png",
+          "position": [
+            -16,
+            18
+          ],
+          "opacity": 0.6
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        39,
+        29,
+        120,
+        139
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 13,
+      "duration_ms": 40,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_13.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/star_platinum_charge_vortex_right.png",
+          "position": [
+            -16,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        40,
+        30,
+        119,
+        140
+      ],
+      "approved_pose": "charge"
+    },
+    {
+      "index": 14,
+      "duration_ms": 40,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_14.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/star_platinum_charge_vortex_right.png",
+          "position": [
+            -16,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        40,
+        30,
+        119,
+        140
+      ],
+      "approved_pose": "charge"
+    },
+    {
+      "index": 15,
+      "duration_ms": 50,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_15.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/star_platinum_charge_vortex_right.png",
+          "position": [
+            -16,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        40,
+        30,
+        119,
+        140
+      ],
+      "approved_pose": "charge"
+    },
+    {
+      "index": 16,
+      "duration_ms": 60,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_16.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/star_platinum_charge_vortex_right.png",
+          "position": [
+            -16,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        40,
+        30,
+        119,
+        140
+      ],
+      "approved_pose": "charge"
+    },
+    {
+      "index": 17,
+      "duration_ms": 20,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_17.png",
+          "position": [
+            0,
+            23
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/star_platinum_charge_vortex_right.png",
+          "position": [
+            -16,
+            17
+          ],
+          "opacity": 0.4
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        24,
+        29,
+        113,
+        141
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 18,
+      "duration_ms": 20,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_18.png",
+          "position": [
+            0,
+            21
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        16,
+        27,
+        106,
+        141
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 19,
+      "duration_ms": 20,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_19.png",
+          "position": [
+            0,
+            20
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/punch/frames/star_platinum_punch_wind_1.png",
+          "position": [
+            79,
+            53
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        26,
+        28,
+        137,
+        137
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 20,
+      "duration_ms": 20,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_20.png",
+          "position": [
+            0,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/punch/frames/star_platinum_punch_wind_2.png",
+          "position": [
+            72,
+            50
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        18,
+        30,
+        129,
+        136
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 21,
+      "duration_ms": 30,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_21.png",
+          "position": [
+            0,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/punch/frames/star_platinum_punch_wind_3.png",
+          "position": [
+            106,
+            53
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        16,
+        30,
+        144,
+        142
+      ],
+      "approved_pose": "strike"
+    },
+    {
+      "index": 22,
+      "duration_ms": 80,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_22.png",
+          "position": [
+            0,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/punch/frames/star_platinum_punch_wind_4.png",
+          "position": [
+            106,
+            53
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        16,
+        30,
+        144,
+        142
+      ],
+      "approved_pose": "strike"
+    },
+    {
+      "index": 23,
+      "duration_ms": 30,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_23.png",
+          "position": [
+            0,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/punch/frames/star_platinum_punch_wind_5.png",
+          "position": [
+            106,
+            53
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        3,
+        29,
+        141,
+        139
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 24,
+      "duration_ms": 30,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_24.png",
+          "position": [
+            0,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/punch/frames/star_platinum_punch_wind_6.png",
+          "position": [
+            106,
+            53
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        22,
+        30,
+        120,
+        140
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 25,
+      "duration_ms": 40,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_25.png",
+          "position": [
+            0,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/punch/frames/star_platinum_punch_wind_6.png",
+          "position": [
+            106,
+            53
+          ],
+          "opacity": 0.7
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        25,
+        30,
+        118,
+        140
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 26,
+      "duration_ms": 50,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_26.png",
+          "position": [
+            0,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/punch/frames/star_platinum_punch_wind_7.png",
+          "position": [
+            106,
+            53
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        23,
+        30,
+        119,
+        140
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 27,
+      "duration_ms": 60,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_27.png",
+          "position": [
+            0,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "effects/punch/frames/star_platinum_punch_wind_8.png",
+          "position": [
+            106,
+            53
+          ],
+          "opacity": 0.5
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        33,
+        30,
+        126,
+        142
+      ],
+      "approved_pose": "follow_through"
+    },
+    {
+      "index": 28,
+      "duration_ms": 80,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_28.png",
+          "position": [
+            0,
+            18
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        33,
+        30,
+        126,
+        142
+      ],
+      "approved_pose": "follow_through"
+    },
+    {
+      "index": 29,
+      "duration_ms": 40,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_29.png",
+          "position": [
+            0,
+            20
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        25,
+        28,
+        114,
+        141
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 30,
+      "duration_ms": 40,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_30.png",
+          "position": [
+            0,
+            21
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        27,
+        28,
+        114,
+        142
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 31,
+      "duration_ms": 40,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_31.png",
+          "position": [
+            0,
+            22
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        27,
+        27,
+        115,
+        140
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 32,
+      "duration_ms": 50,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_32.png",
+          "position": [
+            0,
+            23
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        27,
+        26,
+        117,
+        138
+      ],
+      "approved_pose": null
+    },
+    {
+      "index": 33,
+      "duration_ms": 60,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_33.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "approved_pose": "recovery"
+    },
+    {
+      "index": 34,
+      "duration_ms": 70,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_34.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "approved_pose": "recovery"
+    },
+    {
+      "index": 35,
+      "duration_ms": 40,
+      "phase": "fade_out",
+      "exit_opacity": 0.95,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_35.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "derived_from_approved_pose": "recovery",
+      "fade_alpha_baked_into_png": true
+    },
+    {
+      "index": 36,
+      "duration_ms": 50,
+      "phase": "fade_out",
+      "exit_opacity": 0.9,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_36.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "derived_from_approved_pose": "recovery",
+      "fade_alpha_baked_into_png": true
+    },
+    {
+      "index": 37,
+      "duration_ms": 40,
+      "phase": "fade_out",
+      "exit_opacity": 0.82,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_37.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "derived_from_approved_pose": "recovery",
+      "fade_alpha_baked_into_png": true
+    },
+    {
+      "index": 38,
+      "duration_ms": 50,
+      "phase": "fade_out",
+      "exit_opacity": 0.73,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_38.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "derived_from_approved_pose": "recovery",
+      "fade_alpha_baked_into_png": true
+    },
+    {
+      "index": 39,
+      "duration_ms": 40,
+      "phase": "fade_out",
+      "exit_opacity": 0.63,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_39.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "derived_from_approved_pose": "recovery",
+      "fade_alpha_baked_into_png": true
+    },
+    {
+      "index": 40,
+      "duration_ms": 50,
+      "phase": "fade_out",
+      "exit_opacity": 0.52,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_40.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "derived_from_approved_pose": "recovery",
+      "fade_alpha_baked_into_png": true
+    },
+    {
+      "index": 41,
+      "duration_ms": 40,
+      "phase": "fade_out",
+      "exit_opacity": 0.4,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_41.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "derived_from_approved_pose": "recovery",
+      "fade_alpha_baked_into_png": true
+    },
+    {
+      "index": 42,
+      "duration_ms": 50,
+      "phase": "fade_out",
+      "exit_opacity": 0.29,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_42.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "derived_from_approved_pose": "recovery",
+      "fade_alpha_baked_into_png": true
+    },
+    {
+      "index": 43,
+      "duration_ms": 40,
+      "phase": "fade_out",
+      "exit_opacity": 0.19,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_43.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "derived_from_approved_pose": "recovery",
+      "fade_alpha_baked_into_png": true
+    },
+    {
+      "index": 44,
+      "duration_ms": 50,
+      "phase": "fade_out",
+      "exit_opacity": 0.1,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_44.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "derived_from_approved_pose": "recovery",
+      "fade_alpha_baked_into_png": true
+    },
+    {
+      "index": 45,
+      "duration_ms": 40,
+      "phase": "fade_out",
+      "exit_opacity": 0.04,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_45.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": [
+        42,
+        30,
+        118,
+        142
+      ],
+      "derived_from_approved_pose": "recovery",
+      "fade_alpha_baked_into_png": true
+    },
+    {
+      "index": 46,
+      "duration_ms": 50,
+      "phase": "fade_out",
+      "exit_opacity": 0,
+      "layers_back_to_front": [
+        {
+          "file": "stand/frames/star_platinum_charged_punch_46.png",
+          "position": [
+            0,
+            24
+          ],
+          "opacity": 1
+        },
+        {
+          "file": "../../idle_right/frames/jojo_idle_1.png",
+          "position": [
+            64,
+            88
+          ],
+          "opacity": 1
+        }
+      ],
+      "stand_bounds": null,
+      "derived_from_approved_pose": "recovery",
+      "fade_alpha_baked_into_png": true
+    }
+  ],
+  "note": "46-frame complete skill including summon, shorter charge, heavy down-right punch, inward bent-arm follow-through, recovery and a 12-frame opacity fade-out. Exact total duration 2000 ms. Exit transparency is baked into stand PNGs and combined PNGs. Final frame contains only unchanged owner. Approved attack and peak effect unchanged; no game code modified.",
+  "frame_size": [
+    448,
+    224
+  ],
+  "sheet_size": [
+    3584,
+    1344
+  ],
+  "sheet_grid": [
+    8,
+    6
+  ],
+  "sheet_file": "jojo_star_platinum_charged_punch_right_sheet.png",
+  "frame_files": [
+    "frames/jojo_star_platinum_charged_punch_1.png",
+    "frames/jojo_star_platinum_charged_punch_2.png",
+    "frames/jojo_star_platinum_charged_punch_3.png",
+    "frames/jojo_star_platinum_charged_punch_4.png",
+    "frames/jojo_star_platinum_charged_punch_5.png",
+    "frames/jojo_star_platinum_charged_punch_6.png",
+    "frames/jojo_star_platinum_charged_punch_7.png",
+    "frames/jojo_star_platinum_charged_punch_8.png",
+    "frames/jojo_star_platinum_charged_punch_9.png",
+    "frames/jojo_star_platinum_charged_punch_10.png",
+    "frames/jojo_star_platinum_charged_punch_11.png",
+    "frames/jojo_star_platinum_charged_punch_12.png",
+    "frames/jojo_star_platinum_charged_punch_13.png",
+    "frames/jojo_star_platinum_charged_punch_14.png",
+    "frames/jojo_star_platinum_charged_punch_15.png",
+    "frames/jojo_star_platinum_charged_punch_16.png",
+    "frames/jojo_star_platinum_charged_punch_17.png",
+    "frames/jojo_star_platinum_charged_punch_18.png",
+    "frames/jojo_star_platinum_charged_punch_19.png",
+    "frames/jojo_star_platinum_charged_punch_20.png",
+    "frames/jojo_star_platinum_charged_punch_21.png",
+    "frames/jojo_star_platinum_charged_punch_22.png",
+    "frames/jojo_star_platinum_charged_punch_23.png",
+    "frames/jojo_star_platinum_charged_punch_24.png",
+    "frames/jojo_star_platinum_charged_punch_25.png",
+    "frames/jojo_star_platinum_charged_punch_26.png",
+    "frames/jojo_star_platinum_charged_punch_27.png",
+    "frames/jojo_star_platinum_charged_punch_28.png",
+    "frames/jojo_star_platinum_charged_punch_29.png",
+    "frames/jojo_star_platinum_charged_punch_30.png",
+    "frames/jojo_star_platinum_charged_punch_31.png",
+    "frames/jojo_star_platinum_charged_punch_32.png",
+    "frames/jojo_star_platinum_charged_punch_33.png",
+    "frames/jojo_star_platinum_charged_punch_34.png",
+    "frames/jojo_star_platinum_charged_punch_35.png",
+    "frames/jojo_star_platinum_charged_punch_36.png",
+    "frames/jojo_star_platinum_charged_punch_37.png",
+    "frames/jojo_star_platinum_charged_punch_38.png",
+    "frames/jojo_star_platinum_charged_punch_39.png",
+    "frames/jojo_star_platinum_charged_punch_40.png",
+    "frames/jojo_star_platinum_charged_punch_41.png",
+    "frames/jojo_star_platinum_charged_punch_42.png",
+    "frames/jojo_star_platinum_charged_punch_43.png",
+    "frames/jojo_star_platinum_charged_punch_44.png",
+    "frames/jojo_star_platinum_charged_punch_45.png",
+    "frames/jojo_star_platinum_charged_punch_46.png"
+  ],
+  "alpha": "hard sprite alpha; summon layer opacity and baked exit fade alpha",
+  "phase_durations_ms": {
+    "summon": 300,
+    "charge": 380,
+    "strike": 190,
+    "follow_through": 290,
+    "recovery": 300,
+    "fade_out": 540
+  },
+  "timing_revision": {
+    "previous_duration_ms": 2260,
+    "previous_charge_duration_ms": 600,
+    "charge_duration_ms": 380,
+    "exit_fade_frames": 12,
+    "exit_fade_duration_ms": 540,
+    "final_state": "owner_only",
+    "review": "approved"
+  },
+  "approval": {
+    "by": "user",
+    "on": "2026-10-06"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "character": "naiwa",
+  "action": "jump",
+  "direction": "right",
+  "stage": "final",
+  "frame_count": 8,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sheet_size": [
+    512,
+    256
+  ],
+  "sheet_grid": [
+    4,
+    2
+  ],
+  "order": "left to right, top to bottom",
+  "durations_ms": [
+    90,
+    70,
+    80,
+    95,
+    110,
+    100,
+    80,
+    120
+  ],
+  "duration_ms": 745,
+  "loop": false,
+  "hold_last_frame": true,
+  "ground_y": 120,
+  "frame_files": [
+    "frames/naiwa_jump_1.png",
+    "frames/naiwa_jump_2.png",
+    "frames/naiwa_jump_3.png",
+    "frames/naiwa_jump_4.png",
+    "frames/naiwa_jump_5.png",
+    "frames/naiwa_jump_6.png",
+    "frames/naiwa_jump_7.png",
+    "frames/naiwa_jump_8.png"
+  ],
+  "sheet_file": "naiwa_jump_right_sheet.png",
+  "alpha": "PNG RGBA transparency preserved",
+  "creative_mode": "built-in image_gen",
+  "approved": true,
+  "review_status": "approved",
+  "approved_by": "user",
+  "approved_on": "2026-10-10"
+}

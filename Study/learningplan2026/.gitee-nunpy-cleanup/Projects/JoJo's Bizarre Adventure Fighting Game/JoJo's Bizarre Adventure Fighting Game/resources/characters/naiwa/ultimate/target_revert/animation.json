@@ -1,0 +1,47 @@
+{
+  "character": "naiwa_plain",
+  "action": "ultimate_target_revert",
+  "stage": "approved",
+  "durations_ms": [
+    70,
+    70,
+    70,
+    80,
+    80,
+    80,
+    90,
+    80
+  ],
+  "duration_ms": 620,
+  "loop": false,
+  "ground_y": 116,
+  "trigger": "after transformation status expires",
+  "final_frame": "transparent; show original enemy sprite",
+  "frame_count": 8,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sheet_size": [
+    512,
+    256
+  ],
+  "sheet_grid": [
+    4,
+    2
+  ],
+  "order": "left to right, top to bottom",
+  "frame_files": [
+    "frames/naiwa_target_revert_1.png",
+    "frames/naiwa_target_revert_2.png",
+    "frames/naiwa_target_revert_3.png",
+    "frames/naiwa_target_revert_4.png",
+    "frames/naiwa_target_revert_5.png",
+    "frames/naiwa_target_revert_6.png",
+    "frames/naiwa_target_revert_7.png",
+    "frames/naiwa_target_revert_8.png"
+  ],
+  "sheet_file": "naiwa_target_revert_sheet.png",
+  "alpha": "PNG RGBA transparency preserved",
+  "creative_mode": "built-in image_gen"
+}

@@ -1,0 +1,50 @@
+# Visual Studio local state and build artifacts
+.vs/
+.vscode/
+.idea/
+Debug/
+Release/
+x64/
+x86/
+ipch/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.VC.db
+*.VC.db-*
+*.VC.VC.opendb
+*.ipch
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.log
+*.exp
+*.lib
+*.exe
+*.res
+
+# Reproducible release output (source assets remain in the project)
+Projects/Milk Egg Survival Adventure/MESA/dist/
+# Temporary page fetched during the abandoned video download
+Projects/Milk Egg Survival Adventure/MESA/art_resources/video_source/
+
+# Local backups and temporary files
+*.bak
+*.tmp
+*.temp
+*~
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+id_rsa
+id_ed25519

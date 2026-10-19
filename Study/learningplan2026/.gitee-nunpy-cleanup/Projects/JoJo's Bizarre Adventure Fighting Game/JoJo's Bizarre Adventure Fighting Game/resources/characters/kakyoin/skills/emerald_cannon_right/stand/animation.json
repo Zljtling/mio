@@ -1,0 +1,183 @@
+{
+  "animation": "emerald_cannon_right",
+  "approved": true,
+  "loop": false,
+  "frame_count": 26,
+  "frame_size": [
+    160,
+    160
+  ],
+  "duration_ms": 4000,
+  "sheet": "hierophant_green_emerald_cannon_sheet.png",
+  "frames": [
+    {
+      "file": "frames/hierophant_green_emerald_cannon_1.png",
+      "duration_ms": 40,
+      "stage": "召唤",
+      "opacity": 0
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_2.png",
+      "duration_ms": 40,
+      "stage": "召唤",
+      "opacity": 0.25
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_3.png",
+      "duration_ms": 40,
+      "stage": "召唤",
+      "opacity": 0.5
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_4.png",
+      "duration_ms": 40,
+      "stage": "召唤",
+      "opacity": 0.75
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_5.png",
+      "duration_ms": 40,
+      "stage": "召唤",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_6.png",
+      "duration_ms": 40,
+      "stage": "起手",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_7.png",
+      "duration_ms": 40,
+      "stage": "起手",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_8.png",
+      "duration_ms": 40,
+      "stage": "起手",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_9.png",
+      "duration_ms": 40,
+      "stage": "预备",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_10.png",
+      "duration_ms": 40,
+      "stage": "前推",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_11.png",
+      "duration_ms": 40,
+      "stage": "前推",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_12.png",
+      "duration_ms": 40,
+      "stage": "前推",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_13.png",
+      "duration_ms": 40,
+      "stage": "前推",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_14.png",
+      "duration_ms": 40,
+      "stage": "释放",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_15.png",
+      "duration_ms": 3000,
+      "stage": "持续攻击",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_16.png",
+      "duration_ms": 40,
+      "stage": "收招",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_17.png",
+      "duration_ms": 40,
+      "stage": "收招",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_18.png",
+      "duration_ms": 40,
+      "stage": "收招",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_19.png",
+      "duration_ms": 40,
+      "stage": "收招",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_20.png",
+      "duration_ms": 40,
+      "stage": "收招",
+      "opacity": 1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_21.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.85
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_22.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.65
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_23.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.45
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_24.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.25
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_25.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0.1
+    },
+    {
+      "file": "frames/hierophant_green_emerald_cannon_26.png",
+      "duration_ms": 40,
+      "stage": "退场",
+      "opacity": 0
+    }
+  ],
+  "sustain_frame": 15,
+  "active_start_ms": 560,
+  "active_end_ms": 3560,
+  "active_duration_ms": 3000,
+  "approved_keyframe_sha256": {
+    "5": "1ddca13c96c7c3bad9891f30edfa51de710d9d7ae689d1bc8a24d76cd06176ee",
+    "9": "774d1753aa4ab2c4e54fd919a5417f22a88ded6f1dfd5345f79aa5584796f640",
+    "14": "fb7baf9651df3730cac9e8905f166e5b92ce8ec93f89a5339436568b12441f98",
+    "15": "fb7baf9651df3730cac9e8905f166e5b92ce8ec93f89a5339436568b12441f98",
+    "20": "b89169b813f74d272d9ffc83976c2e6ba25763dec1c4041c04233bf511d4c8e9"
+  },
+  "stage": "final",
+  "approved_on": "2026-10-08"
+}

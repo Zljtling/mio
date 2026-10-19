@@ -1,0 +1,52 @@
+{
+  "character": "naiwa",
+  "action": "forward_teleport",
+  "direction": "right",
+  "stage": "draft",
+  "asset_only": true,
+  "frame_count": 8,
+  "frame_size": [
+    128,
+    128
+  ],
+  "sheet_size": [
+    512,
+    256
+  ],
+  "sheet_grid": [
+    4,
+    2
+  ],
+  "order": "left to right, top to bottom",
+  "durations_ms": [
+    50,
+    45,
+    45,
+    40,
+    40,
+    45,
+    45,
+    50
+  ],
+  "duration_ms": 360,
+  "loop": false,
+  "reposition_trigger_frame": 5,
+  "forward_distance_body_lengths": 5,
+  "energy_cost": 2,
+  "ground_y": 116,
+  "frame_files": [
+    "frames/naiwa_teleport_1.png",
+    "frames/naiwa_teleport_2.png",
+    "frames/naiwa_teleport_3.png",
+    "frames/naiwa_teleport_4.png",
+    "frames/naiwa_teleport_5.png",
+    "frames/naiwa_teleport_6.png",
+    "frames/naiwa_teleport_7.png",
+    "frames/naiwa_teleport_8.png"
+  ],
+  "sheet_file": "naiwa_teleport_right_sheet.png",
+  "alpha": "PNG RGBA transparency preserved",
+  "creative_mode": "built-in image_gen",
+  "idle_endpoints_preserved_exactly": true,
+  "note": "visual assets and suggested timing only; gameplay logic not changed"
+}
