@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "phase": "finished",
+  "patient": "BC23209",
+  "inner_folds": 0,
+  "epochs_per_run": 50,
+  "supervisor_pid": 20916,
+  "started_at": "2026-10-22T10:43:02.727514+00:00",
+  "log": "/home/mio/study/sci/文献检索_20261015/02_P1_重点方法/中科院1区_2025公开来源/01_STNet/output/simplified/console.log",
+  "updated_at": "2026-10-22T12:03:00.037905+00:00",
+  "training_pid": 20917,
+  "selected_prediction": "/home/mio/study/sci/文献检索_20261015/02_P1_重点方法/中科院1区_2025公开来源/01_STNet/output/simplified/pred_50.npz",
+  "finished_at": "2026-10-22T12:03:00.037860+00:00",
+  "summary": "/home/mio/study/sci/文献检索_20261015/02_P1_重点方法/中科院1区_2025公开来源/01_STNet/output/simplified/pred_50.summary.json"
+}

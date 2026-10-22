@@ -1,0 +1,14 @@
+{
+  "prediction": "/home/mio/study/sci/\u6587\u732e\u68c0\u7d22_20261015/02_P1_\u91cd\u70b9\u65b9\u6cd5/\u4e2d\u79d1\u96621\u533a_2025\u516c\u5f00\u6765\u6e90/01_STNet/output/simplified/pred_50.npz",
+  "patients": [
+    "BC23209"
+  ],
+  "spots": 942,
+  "genes": 250,
+  "rmse": 0.8078945875167847,
+  "train_mean_baseline_rmse": 0.8425960540771484,
+  "median_pearson": 0.11998803682760803,
+  "mean_pearson": 0.12099203946629908,
+  "positive_correlations": 186,
+  "note": "Simplified experiment: fixed 22/1 patient split, held-out BC23209, fixed epoch 50, no inner cross-validation or test-driven epoch selection."
+}

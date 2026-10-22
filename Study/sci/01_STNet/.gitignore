@@ -1,0 +1,19 @@
+# Large datasets and downloaded pretrained weights (rebuild using reproduction scripts)
+/data/
+
+# Training weights remain local; keep predictions, metrics, source data and PNG figures
+/output/**/checkpoints/
+
+# Vendored upstream repository: commit source files, not nested Git metadata
+/ST-Net/.git/
+
+# Generated caches and local secrets
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.env
+.env.*
+!.env.example
+.DS_Store

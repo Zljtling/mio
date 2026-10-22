@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "pid": 21802,
+  "target_epoch": 50,
+  "output": "output/figures/final_epoch_050",
+  "visual_review": "Final spatial, performance and learning-curve panels inspected by assistant; no layout issue found; independent scientific review not implied",
+  "updated_at": "2026-10-22T12:03:16.718922+00:00",
+  "automated_qa": "passed"
+}

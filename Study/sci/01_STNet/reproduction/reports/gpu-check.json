@@ -1,0 +1,12 @@
+{
+  "torch": "2.7.1+cu128",
+  "torchvision": "0.22.1+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5080 Laptop GPU",
+  "capability": [
+    12,
+    0
+  ],
+  "loss": 1.032375693321228,
+  "dense121_backward": "passed"
+}

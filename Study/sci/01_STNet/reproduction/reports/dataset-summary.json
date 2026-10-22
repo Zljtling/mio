@@ -1,0 +1,484 @@
+{
+  "patients": 23,
+  "sections": 68,
+  "spots": 30627,
+  "genes": 26933,
+  "samples": [
+    {
+      "patient": "BC23287",
+      "section": "C1",
+      "spots": 256,
+      "width": 9311,
+      "height": 9856
+    },
+    {
+      "patient": "BC23287",
+      "section": "C2",
+      "spots": 334,
+      "width": 9315,
+      "height": 9875
+    },
+    {
+      "patient": "BC23287",
+      "section": "D1",
+      "spots": 357,
+      "width": 9297,
+      "height": 9855
+    },
+    {
+      "patient": "BC23450",
+      "section": "D2",
+      "spots": 316,
+      "width": 9318,
+      "height": 9863
+    },
+    {
+      "patient": "BC23450",
+      "section": "E1",
+      "spots": 301,
+      "width": 9283,
+      "height": 9856
+    },
+    {
+      "patient": "BC23450",
+      "section": "E2",
+      "spots": 318,
+      "width": 9313,
+      "height": 9857
+    },
+    {
+      "patient": "BC23901",
+      "section": "C2",
+      "spots": 290,
+      "width": 9332,
+      "height": 9878
+    },
+    {
+      "patient": "BC23901",
+      "section": "D1",
+      "spots": 296,
+      "width": 9308,
+      "height": 9860
+    },
+    {
+      "patient": "BC23944",
+      "section": "D2",
+      "spots": 413,
+      "width": 9316,
+      "height": 9874
+    },
+    {
+      "patient": "BC23944",
+      "section": "E1",
+      "spots": 421,
+      "width": 9277,
+      "height": 9849
+    },
+    {
+      "patient": "BC23944",
+      "section": "E2",
+      "spots": 403,
+      "width": 9314,
+      "height": 9867
+    },
+    {
+      "patient": "BC24220",
+      "section": "D2",
+      "spots": 431,
+      "width": 9322,
+      "height": 9849
+    },
+    {
+      "patient": "BC24220",
+      "section": "E1",
+      "spots": 428,
+      "width": 9281,
+      "height": 9857
+    },
+    {
+      "patient": "BC24220",
+      "section": "E2",
+      "spots": 436,
+      "width": 9307,
+      "height": 9858
+    },
+    {
+      "patient": "BC23567",
+      "section": "D2",
+      "spots": 587,
+      "width": 9322,
+      "height": 9922
+    },
+    {
+      "patient": "BC23567",
+      "section": "E1",
+      "spots": 572,
+      "width": 9308,
+      "height": 9862
+    },
+    {
+      "patient": "BC23567",
+      "section": "E2",
+      "spots": 570,
+      "width": 9344,
+      "height": 9907
+    },
+    {
+      "patient": "BC23810",
+      "section": "D2",
+      "spots": 691,
+      "width": 9307,
+      "height": 9855
+    },
+    {
+      "patient": "BC23810",
+      "section": "E1",
+      "spots": 695,
+      "width": 9322,
+      "height": 9906
+    },
+    {
+      "patient": "BC23810",
+      "section": "E2",
+      "spots": 712,
+      "width": 9328,
+      "height": 9900
+    },
+    {
+      "patient": "BC23903",
+      "section": "C1",
+      "spots": 441,
+      "width": 9310,
+      "height": 9910
+    },
+    {
+      "patient": "BC23903",
+      "section": "C2",
+      "spots": 467,
+      "width": 9326,
+      "height": 9863
+    },
+    {
+      "patient": "BC23903",
+      "section": "D1",
+      "spots": 463,
+      "width": 9309,
+      "height": 9861
+    },
+    {
+      "patient": "BC24044",
+      "section": "D2",
+      "spots": 613,
+      "width": 9301,
+      "height": 9869
+    },
+    {
+      "patient": "BC24044",
+      "section": "E1",
+      "spots": 603,
+      "width": 9314,
+      "height": 9873
+    },
+    {
+      "patient": "BC24044",
+      "section": "E2",
+      "spots": 510,
+      "width": 9319,
+      "height": 9889
+    },
+    {
+      "patient": "BC24105",
+      "section": "C1",
+      "spots": 325,
+      "width": 9303,
+      "height": 9854
+    },
+    {
+      "patient": "BC24105",
+      "section": "C2",
+      "spots": 297,
+      "width": 9323,
+      "height": 9846
+    },
+    {
+      "patient": "BC24105",
+      "section": "D1",
+      "spots": 337,
+      "width": 9325,
+      "height": 9888
+    },
+    {
+      "patient": "BC23268",
+      "section": "C1",
+      "spots": 435,
+      "width": 9344,
+      "height": 9892
+    },
+    {
+      "patient": "BC23268",
+      "section": "C2",
+      "spots": 498,
+      "width": 9291,
+      "height": 9908
+    },
+    {
+      "patient": "BC23268",
+      "section": "D1",
+      "spots": 492,
+      "width": 9290,
+      "height": 9892
+    },
+    {
+      "patient": "BC23269",
+      "section": "C1",
+      "spots": 434,
+      "width": 9317,
+      "height": 9920
+    },
+    {
+      "patient": "BC23269",
+      "section": "C2",
+      "spots": 435,
+      "width": 9293,
+      "height": 9947
+    },
+    {
+      "patient": "BC23269",
+      "section": "D1",
+      "spots": 433,
+      "width": 9320,
+      "height": 9874
+    },
+    {
+      "patient": "BC23272",
+      "section": "D2",
+      "spots": 565,
+      "width": 9343,
+      "height": 9900
+    },
+    {
+      "patient": "BC23272",
+      "section": "E1",
+      "spots": 578,
+      "width": 9278,
+      "height": 9915
+    },
+    {
+      "patient": "BC23272",
+      "section": "E2",
+      "spots": 548,
+      "width": 9331,
+      "height": 9914
+    },
+    {
+      "patient": "BC24223",
+      "section": "D2",
+      "spots": 367,
+      "width": 9351,
+      "height": 9896
+    },
+    {
+      "patient": "BC24223",
+      "section": "E1",
+      "spots": 362,
+      "width": 9323,
+      "height": 9861
+    },
+    {
+      "patient": "BC24223",
+      "section": "E2",
+      "spots": 363,
+      "width": 9346,
+      "height": 9889
+    },
+    {
+      "patient": "BC23270",
+      "section": "D2",
+      "spots": 284,
+      "width": 9293,
+      "height": 9894
+    },
+    {
+      "patient": "BC23270",
+      "section": "E1",
+      "spots": 283,
+      "width": 9278,
+      "height": 9865
+    },
+    {
+      "patient": "BC23270",
+      "section": "E2",
+      "spots": 283,
+      "width": 9301,
+      "height": 9866
+    },
+    {
+      "patient": "BC23277",
+      "section": "D2",
+      "spots": 506,
+      "width": 9334,
+      "height": 9891
+    },
+    {
+      "patient": "BC23277",
+      "section": "E1",
+      "spots": 512,
+      "width": 9310,
+      "height": 9906
+    },
+    {
+      "patient": "BC23277",
+      "section": "E2",
+      "spots": 564,
+      "width": 9341,
+      "height": 9930
+    },
+    {
+      "patient": "BC23506",
+      "section": "C1",
+      "spots": 489,
+      "width": 9309,
+      "height": 9905
+    },
+    {
+      "patient": "BC23506",
+      "section": "C2",
+      "spots": 501,
+      "width": 9309,
+      "height": 9907
+    },
+    {
+      "patient": "BC23506",
+      "section": "D1",
+      "spots": 482,
+      "width": 9307,
+      "height": 9925
+    },
+    {
+      "patient": "BC23508",
+      "section": "D2",
+      "spots": 478,
+      "width": 9319,
+      "height": 9925
+    },
+    {
+      "patient": "BC23508",
+      "section": "E1",
+      "spots": 471,
+      "width": 9302,
+      "height": 9895
+    },
+    {
+      "patient": "BC23508",
+      "section": "E2",
+      "spots": 504,
+      "width": 9346,
+      "height": 9897
+    },
+    {
+      "patient": "BC23895",
+      "section": "C1",
+      "spots": 498,
+      "width": 9315,
+      "height": 9923
+    },
+    {
+      "patient": "BC23895",
+      "section": "C2",
+      "spots": 453,
+      "width": 9337,
+      "height": 9885
+    },
+    {
+      "patient": "BC23895",
+      "section": "D1",
+      "spots": 518,
+      "width": 9326,
+      "height": 9916
+    },
+    {
+      "patient": "BC23209",
+      "section": "C1",
+      "spots": 294,
+      "width": 9299,
+      "height": 9871
+    },
+    {
+      "patient": "BC23209",
+      "section": "C2",
+      "spots": 317,
+      "width": 9286,
+      "height": 9852
+    },
+    {
+      "patient": "BC23209",
+      "section": "D1",
+      "spots": 331,
+      "width": 9286,
+      "height": 9866
+    },
+    {
+      "patient": "BC23288",
+      "section": "D2",
+      "spots": 462,
+      "width": 9322,
+      "height": 9922
+    },
+    {
+      "patient": "BC23288",
+      "section": "E1",
+      "spots": 479,
+      "width": 9335,
+      "height": 9914
+    },
+    {
+      "patient": "BC23288",
+      "section": "E2",
+      "spots": 478,
+      "width": 9364,
+      "height": 9909
+    },
+    {
+      "patient": "BC23377",
+      "section": "C1",
+      "spots": 597,
+      "width": 9297,
+      "height": 9912
+    },
+    {
+      "patient": "BC23377",
+      "section": "C2",
+      "spots": 686,
+      "width": 9300,
+      "height": 9926
+    },
+    {
+      "patient": "BC23377",
+      "section": "D1",
+      "spots": 601,
+      "width": 9308,
+      "height": 9917
+    },
+    {
+      "patient": "BC23803",
+      "section": "D2",
+      "spots": 402,
+      "width": 9296,
+      "height": 9888
+    },
+    {
+      "patient": "BC23803",
+      "section": "E1",
+      "spots": 340,
+      "width": 9310,
+      "height": 9891
+    },
+    {
+      "patient": "BC23803",
+      "section": "E2",
+      "spots": 421,
+      "width": 9313,
+      "height": 9898
+    }
+  ]
+}

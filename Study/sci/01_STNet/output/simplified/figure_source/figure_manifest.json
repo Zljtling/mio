@@ -1,0 +1,46 @@
+{
+  "skill": "nature-figure",
+  "skill_version": "2.8.0",
+  "backend": "Python/Matplotlib",
+  "stage": "final",
+  "epoch": 50,
+  "prediction": "output/simplified/pred_50.npz",
+  "sha256": "0e07453b1743ce1718d7bb6a1f8dfbc1fddd89043cac78b4afb2960258d39e3b",
+  "patient": "BC23209",
+  "biological_patients": 1,
+  "seeds": 1,
+  "spots": 942,
+  "genes": 250,
+  "section_counts": {
+    "C1": 294,
+    "C2": 317,
+    "D1": 331
+  },
+  "exclusions": {
+    "spots": 0,
+    "genes": 0,
+    "undefined_Pearson": 0
+  },
+  "gene": "FASN",
+  "gene_selection": "Prespecified from the paper, not selected by held-out performance",
+  "display_transform": {
+    "reference": "Held-out true FASN mean and population SD, shared by prediction",
+    "mean": -9.314795415619123,
+    "sd": 0.6066968663286542,
+    "color_limits": [
+      -3,
+      3
+    ],
+    "true_clipped": 0,
+    "pred_clipped": 0
+  },
+  "images": [
+    "data/hist2tscript/TNBC/BC23209/BC23209_C1.jpg",
+    "data/hist2tscript/TNBC/BC23209/BC23209_C2.jpg",
+    "data/hist2tscript/TNBC/BC23209/BC23209_D1.jpg"
+  ],
+  "image_processing": "Full image, aspect preserved, display thumbnail only, no contrast/gamma edits; square white padding",
+  "calibration": "Pixels only; no assumed micrometre scale",
+  "statistics": "Descriptive only; no biological CI or significance tests with one patient",
+  "reference": "Local paper Fig. 2a; no external-data AUROC or 23-patient consistency panel"
+}

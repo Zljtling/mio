@@ -1,0 +1,80 @@
+diff --git a/bin/create_tifs.sh b/bin/create_tifs.sh
+index 4ace467..6d256e7 100755
+--- a/bin/create_tifs.sh
++++ b/bin/create_tifs.sh
+@@ -1,8 +1,13 @@
+ #!/bin/bash
+ 
+-cd `python -c "import histonet; print(histonet.config.SPATIAL_RAW_ROOT)"`
++set -euo pipefail
++cd "$(python -c 'import stnet; print(stnet.config.SPATIAL_RAW_ROOT)')"
++shopt -s nullglob
+ for i in */*/*.jpg;
+ do
+-    echo ${i}
+-    convert ${i} -define tiff:tile-geometry=256x256 ${i%.jpg}.tif
++    if [ ! -f "${i%.jpg}.tif" ]; then
++        echo "$i"
++        vips tiffsave "$i" "${i%.jpg}.partial.tif" --tile --tile-width 256 --tile-height 256 --compression deflate
++        mv "${i%.jpg}.partial.tif" "${i%.jpg}.tif"
++    fi
+ done
+diff --git a/setup.cfg b/setup.cfg
+index db440b4..3b55af5 100644
+--- a/setup.cfg
++++ b/setup.cfg
+@@ -1,23 +1,25 @@
+ [metadata]
+-name = histonet
+-version = attr: histonet.__version__
++name = stnet
+ 
+ [options]
+ zip_safe = False
+ packages = find:
+ install_requires =
+-  argcomplete ~= 1.9.4
+-  numpy ~= 1.16.1
+-  pandas ~= 0.24.1
+-  pyyaml
+-  torch ~= 1.0.0
+-  torchvision ~= 0.2.1
+-  tqdm ~= 4.26.0
+-  scikit-image ~= 0.14.0
+-  scipy ~= 1.2.1
+-  matplotlib
+-python_requires = ~= 3.7
++  argcomplete == 3.5.3
++  numpy == 1.26.4
++  pandas == 1.5.3
++  pyyaml == 6.0.2
++  torch == 2.7.1
++  torchvision == 0.22.1
++  tqdm == 4.67.1
++  scikit-image == 0.24.0
++  scipy == 1.13.1
++  matplotlib == 3.9.4
++  Pillow == 9.5.0
++  openslide-python == 1.4.2
++  openslide-bin == 4.0.1.2
++python_requires = >= 3.10, < 3.11
+ 
+ [options.entry_points]
+ console_scripts =
+-  histonet = histonet.__main__:main
++  stnet = stnet.main:main
+diff --git a/setup.py b/setup.py
+index 5798054..e2ce2d3 100755
+--- a/setup.py
++++ b/setup.py
+@@ -10,7 +10,9 @@ with open("README.md", "r") as fh:
+ 
+ exec(open(os.path.join("stnet", "__version__.py")).read())
+ 
+-subprocess.run(['env', 'python3', os.path.join(os.path.dirname(__file__), 'refresh_version.py')])
++refresh = os.path.join(os.path.dirname(__file__), 'refresh_version.py')
++if os.path.isfile(refresh):
++    subprocess.run(['env', 'python3', refresh], check=True)
+ 
+ setuptools.setup(
+     name="stnet",
